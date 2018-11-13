@@ -112,7 +112,20 @@ Page({
     var clickid = e.controlId;
     
     switch(clickid){
-      
+      //点击扫码开锁
+      case 1:{
+      //根据用户状态，跳转页面  
+        var status = getApp().globalData.status;
+        //如果status为0 ，用户未登录，跳转到手机注册登录页面
+        if (status == 0){
+          wx.navigateTo({
+            url: '../register/register',
+          })
+        }
+        
+        break
+      }
+
       case 4:{
         this.mapCtx.moveToLocation();
         break
