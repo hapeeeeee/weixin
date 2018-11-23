@@ -1,0 +1,15 @@
+<map
+  id = "myMap"
+  style='width:100%;height:100%'
+  longitude='{{longtiude}}'
+  latitude='{{latitude}}'
+  controls='{{controls}}'
+  markers='{{markers}}'
+  show-location='true' 
+  scale='17'
+  bindcontroltap='controltap' 
+  
+  bindregionchange='regionchange'
+>
+<cover-view class='cover-markers'></cover-view>
+</map>
