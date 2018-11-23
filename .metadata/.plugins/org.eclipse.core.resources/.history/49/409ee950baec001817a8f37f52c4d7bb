@@ -1,0 +1,40 @@
+package com.example.demo.service;
+
+import java.io.IOException;
+import java.util.Random;
+
+import org.json.JSONException;
+import org.springframework.stereotype.Service;
+
+import com.github.qcloudsms.SmsSingleSender;
+import com.github.qcloudsms.SmsSingleSenderResult;
+import com.github.qcloudsms.httpclient.HTTPException;
+
+@Service
+public class UserServiceImpl implements UserService {
+
+	@Override
+	public boolean sendMsg(String countryCode, String phoneNum) {
+			int appid = 1;
+			String appkey = "";
+			boolean flag = true;
+ 			//调用腾讯云短信的 API 
+		    String code = (int)(Math.random() * 9 + 1) * 1000 + "";  
+		    SmsSingleSender ssender = new SmsSingleSender(appid, appkey);
+		    SmsSingleSenderResult result;
+			try {
+				result = ssender.send(0, countryCode, phoneNum, "" + "是您的登录注册码，请于{2}分钟内注册。如非本人操作，请忽略此短信", "", "");
+			} catch (Exception e) {
+				flag = false;  
+				e.printStackTrace();
+			}
+			return flag;
+		     
+		//向用户对应手机号发送短信 
+		
+		//将发送的手机号作为key，验证码作为value保存到redis中  
+		
+		
+	}
+
+}

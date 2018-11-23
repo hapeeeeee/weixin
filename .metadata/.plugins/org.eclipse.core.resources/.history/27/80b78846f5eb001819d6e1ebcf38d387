@@ -1,0 +1,14 @@
+package com.example.demo.service;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class UserServiceImpl implements UserService {
+
+	@Override
+	public boolean sendMsg(String countryCode, String phoneNum) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

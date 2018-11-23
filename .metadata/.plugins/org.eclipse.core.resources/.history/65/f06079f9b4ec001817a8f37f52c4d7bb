@@ -1,0 +1,27 @@
+package com.example.demo.service;
+
+import org.springframework.stereotype.Service;
+
+import com.github.qcloudsms.SmsSingleSender;
+import com.github.qcloudsms.SmsSingleSenderResult;
+
+@Service
+public class UserServiceImpl implements UserService {
+
+	@Override
+	public boolean sendMsg(String countryCode, String phoneNum) {
+		//调用腾讯云短信的 API 
+		  
+		    SmsSingleSender ssender = new SmsSingleSender(appid, appkey);
+		    SmsSingleSenderResult result = ssender.send(0, countryCode, phoneNum, "", "", "");
+		        templateId, params, smsSign, "", "");  // 签名参数未提供或者为空时，会使用默认签名发送短信
+		    System.out.println(result);
+		//向用户对应手机号发送短信 
+		
+		//将发送的手机号作为key，验证码作为value保存到redis中  
+		
+		
+		return false;
+	}
+
+}
