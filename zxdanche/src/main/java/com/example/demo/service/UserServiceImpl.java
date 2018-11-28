@@ -6,9 +6,11 @@ import java.util.concurrent.TimeUnit;
 
 import org.json.JSONException;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.stereotype.Service;
 
+import com.example.demo.pojo.User;
 import com.github.qcloudsms.SmsSingleSender;
 import com.github.qcloudsms.SmsSingleSenderResult;
 import com.github.qcloudsms.httpclient.HTTPException;
@@ -18,6 +20,9 @@ public class UserServiceImpl implements UserService {
 
 	@Autowired 
 	private StringRedisTemplate stringRedisTemplate; 
+	
+	@Autowired
+	private MongoTemplate mongoTemplate; 
 	
 	@Override
 	public boolean sendMsg(String countryCode, String phoneNum) {
@@ -51,6 +56,19 @@ public class UserServiceImpl implements UserService {
 		}
 		System.out.println(flag);
 		return flag;
+	}
+
+	@Override
+	public void register(User user) {
+		mongoTemplate.insert(user);
+		
+	}
+
+	@Override
+	public void updata(User user) {
+		//如果数据不存在，就插入，如果存在就更新数据
+		mongoTemplate.insert(user);
+		
 	}
 	
 	
