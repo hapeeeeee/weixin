@@ -11,5 +11,5 @@
   
   bindregionchange='regionchange'
 >
-<cover-view class='cover-markers'></cover-view>
+
 </map>

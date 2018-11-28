@@ -114,9 +114,7 @@ Page({
       url: 'http://localhost:8080/user/verify',
       
       //POST请求是json，后台接收的是字符串。所以收不到
-      
-      
-      //  
+
       method: 'GET',
       data:{
         phoneNum: phoneNum,
@@ -124,11 +122,45 @@ Page({
       },
       success: function(res){
         //res.data是后台的返回值
+        console.log(res)
         //校验成功
         if (res.data){
-          console.log(res)
-          //把用户保存到MongoDB中
-          //然后跳转到押金注册界面
+          wx.request({
+            url: 'http://localhost:8080/user/register',
+            method:'POST',
+            
+            data:{
+              phoneNum : phoneNum,
+              regDate : new Date()
+            },
+            //用户信息保存成功，跳转页面
+            success:function(res){
+              if(res.data){
+                wx.navigateTo({
+                  url: '../deposit/deposit',
+                })
+                //记录用户状态，0表示未注册，1表示绑定完手机号 2表示已经实名认证 
+                
+                //更新getApp().global中的数据，是更新内存中的数据
+                getApp().globalData.status = 1
+                getApp().globalData.phoneNum = phoneNum
+
+                //将用户信息保存到手机的手机的存储卡中
+                wx.setStorageSync('status', 1)
+                wx.setStorageSync('phoneNum', phoneNum)
+
+              
+              }else{//保存失败
+                wx.showModal({
+                  title: '错误',
+                  content: '对不起，服务器错误，请稍后再试！',
+                })
+              }
+            }
+
+          })
+          
+
         }else{ //校验失败
           wx.showModal({
             title: '提示',

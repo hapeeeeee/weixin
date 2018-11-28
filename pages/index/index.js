@@ -1,4 +1,4 @@
-
+var mydefs = require('../../utils/mydefs') 
 
 Page({
   data: {
@@ -114,12 +114,18 @@ Page({
     switch(clickid){
       //点击扫码开锁
       case 1:{
+
+       var status = mydefs.get('status')        
       //根据用户状态，跳转页面  
-        var status = getApp().globalData.status;
+        
         //如果status为0 ，用户未登录，跳转到手机注册登录页面
         if (status == 0){
           wx.navigateTo({
             url: '../register/register',
+          })
+        }else if(status == 1){
+          wx.navigateTo({
+            url: '../deposit/deposit',
           })
         }
         
