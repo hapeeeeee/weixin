@@ -5,7 +5,200 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2018-11-27T16:49:53Z</updated>
+  <updated>2018-12-05T11:58:00Z</updated>
+  <entry>
+    <title>Spring Tools 4.0.2 released</title>
+    <link rel="alternate" href="https://spring.io/blog/2018/12/05/spring-tools-4-0-2-released" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Nieraj Singh</name>
+    </author>
+    <id>tag:spring.io,2018-12-05:3488</id>
+    <updated>2018-12-05T11:58:00Z</updated>
+    <content type="html">&lt;p&gt;Dear Spring Community,&lt;/p&gt;
+&lt;p&gt;I am happy to announce the 4.0.2 release of the Spring Tools 4 for Eclipse, Visual Studio Code, and Atom.&lt;/p&gt;
+&lt;p&gt;Highlights from this release include:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;(Spring Boot) CTRL-CLICK navigation from application.properties and application.yml to Java&lt;/li&gt;
+  &lt;li&gt;(Spring Boot) Improvements to &amp;lsquo;Goto Symbol&amp;rsquo; and &amp;lsquo;Live Hover&amp;rsquo; for functional style WebFlux request mappings&lt;/li&gt;
+  &lt;li&gt;(Spring Boot) Support for Spring Boot log groups in properties and yaml editor&lt;/li&gt;
+  &lt;li&gt;(Spring Boot) Various bug fixes&lt;/li&gt;
+  &lt;li&gt;(Eclipse) Boot launch config editor &amp;lsquo;override properties&amp;rsquo; now uses full-featured embedded properties editor&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Detailed changes can be found here:&lt;br/&gt;&lt;a href="https://github.com/spring-projects/sts4/wiki/Changelog#2018-11-30-402-release"&gt;https://github.com/spring-projects/sts4/wiki/Changelog#2018-11-30-402-release&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;To download the distribution for Eclipse and find links to the marketplace entries for Visual Studio Code and Atom, please visit:&lt;br/&gt;&lt;a href="http://spring.io/tools/"&gt;http://spring.io/tools/&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Spring Tips: Bootiful Microsoft Azure</title>
+    <link rel="alternate" href="https://spring.io/blog/2018/12/05/spring-tips-bootiful-microsoft-azure" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Josh Long</name>
+    </author>
+    <id>tag:spring.io,2018-12-02:3486</id>
+    <updated>2018-12-05T00:00:00Z</updated>
+    <content type="html">&lt;p&gt;Hi Spring fans! In this installment of Spring Tips we look at how to use Spring to work with infrastructure on Microsoft Azure&lt;/p&gt;
+&lt;p&gt;speaker: &lt;a href="http://twitter.com/starbuxman"&gt;Josh Long &lt;/a&gt;&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/jRgZe7kWDnU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</content>
+  </entry>
+  <entry>
+    <title>This Week in Spring - December 5th, 2018</title>
+    <link rel="alternate" href="https://spring.io/blog/2018/12/04/this-week-in-spring-december-5th-2018" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Josh Long</name>
+    </author>
+    <id>tag:spring.io,2018-12-04:3487</id>
+    <updated>2018-12-04T23:51:23Z</updated>
+    <content type="html">&lt;p&gt;Hi Spring fans and welcome to another installment of &lt;em&gt;This Week in Spring&lt;/em&gt;! Today I concluded my brief time in Paris, France, for the &lt;em&gt;epic&lt;/em&gt; SpringOne Tour event and I&amp;rsquo;ll be off to Milan, Italy, in about 12 hours where I&amp;rsquo;ll be speaking at the &lt;a href="https://www.jugmilano.it/meeting-107.html"&gt;Milano JUG Wednesday night&lt;/a&gt;. &lt;em&gt;Ci saro presto, Milano!&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Tomorrow we&amp;rsquo;ll have the first installment of season 5 of &lt;a href="http://twitter.com/SpringTipsLive"&gt;&lt;em&gt;Spring Tips&lt;/em&gt;&lt;/a&gt; available so be sure to check this space soon and every Wednesday until we&amp;rsquo;ve exhausted all 11 episodes! &lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;There&amp;rsquo;s a lot to love in &lt;a href="https://github.com/spring-projects/sts4/wiki/Changelog#2018-11-30-402-release"&gt;the new Spring Tool Suite 4 release!&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2018/11/30/spring-session-bean-sr1-and-apple-sr7-released"&gt;Spring Session Bean-SR1 and Apple-SR7 Released&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2018/11/30/spring-boot-2-1-1-available-now"&gt;Spring Boot 2.1.1 available now&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2018/11/30/spring-boot-2-0-7-available-now"&gt;Spring Boot 2.0.7 available now&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Want to learn the ways that Pivotal Cloud Foundry supports you on &lt;a href="https://pivotal.io/partners/aws?mkt_tok=eyJpIjoiWXpObU9EUTRNbUl3WkdRMyIsInQiOiJwNU5rcDcrVDFzSnpjM0tWemRDK1M0S1dNQnMrdVN0U0dKdTlMajRzQXlVd1QyZjdLUGFNOUN2ekJGNG1HdTI2emtMZWpHekh3Ukk1VEQ4eHVJTDFxS05VUlwvdTA2NVJ2SWc5VVwvSWZjOGV4R0xkczRZa3dQZ1lhRGJUUjNoUTMyIn0%253D"&gt;Amazon Web Services (AWS)?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2018/11/29/spring-io-platform-brussels-sr15"&gt;Spring IO Platform Brussels-SR15&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2018/11/29/spring-security-5-1-2-5-0-10-4-2-10-released"&gt;Spring Security 5.1.2, 5.0.10, 4.2.10 Released&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2018/11/29/spring-boot-1-5-18-available-now"&gt;Spring Boot 1.5.18 available now&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Check this out! &lt;a href="https://www.rabbitmq.com/blog/2018/12/04/this-month-in-rabbitmq-dec-4-2018/"&gt;&lt;em&gt;This Month in RabbitMQ&lt;/em&gt;, Dec 4, 2018&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Check out these new Spring Security &lt;a href="https://twitter.com/jzheaux/status/1069653892168802305?s=12"&gt;first-timer issues&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;I dig Maciej Walkowiak&amp;rsquo;s walkthrough of developing &lt;a href="https://twitter.com/maciejwalkowiak/status/1069718456537362432?s=12"&gt;complete&lt;/a&gt; reactive Spring applications with Spring WebFlux, Spring Data Redis, Test Containers, Lombok and of course Spring Boot&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://t.co/KdytTYXAg6"&gt;Matt Raible&amp;rsquo;s published the slides from his &amp;ldquo;Bootiful Development with Spring Boot and Vue&amp;rdquo; talk this evening. &lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Not stricly speaking related to Spring, but still interesting. It&amp;rsquo;s a French-language post on &lt;a href="https://www.elastic.co/fr/blog/monitoring-java-applications-with-metricbeat-and-jolokia"&gt;observing Java applications with Metricbeat and Jolokia over on the Elastic blog&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;This is an oldie-but-a-goodie over on &lt;em&gt;JavaWorld&lt;/em&gt;: &lt;a href="https://www.javaworld.com/article/3288219/spring-framework/mastering-spring-framework-5-part-2-spring-webflux.amp.html"&gt;mastering Spring framework 5, Part 2: Spring WebFlux | JavaWorld&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Nice article offering insights on tuning an &lt;a href="https://middlewareblog.redhat.com/2018/10/15/insights-about-tuning-an-apache-camel-application-deployed-into-spring-boot/amp/?__twitter_impression=true"&gt;Apache Camel application deployed into Spring Boot &lt;/a&gt; over on the JBoss Middleware blog.&lt;/li&gt;
+  &lt;li&gt;I love these Chinese-language videos &lt;a href="https://www.youtube.com/playlist?list=PL95Ey4rht7980EH8yr7SLBvj9XSE1ggdy"&gt;on using project Reactor&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;I love Spring Framework lead Juergen Hoeller&amp;rsquo;s SpringOne Platform 2018 presentation, &lt;a href="https://www.infoq.com/presentations/spring-5-1-jdk-8-11"&gt;&lt;em&gt;Spring Framework 5.1 on JDK 8 &amp;amp; 11&lt;/em&gt;&lt;/a&gt;, now up on InfoQ&lt;/li&gt;
+  &lt;li&gt;Be sure to not miss &lt;a href="https://medium.com/netifi/building-end-to-end-reactive-scalable-data-driven-applications-dac4273c16b6"&gt;Ben Hale, Mark Paluch and Ryland Degnan&amp;rsquo;s upcoming webinar on R2DBC and RSocketIO on Dec 6&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;This is a nice post on customizing &lt;a href="https://dzone.com/articles/customize-error-responses-in-spring-boot"&gt;error responses in a Spring Boot application&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Don&amp;rsquo;t miss the upcoming webinar on &lt;a href="https://www.brighttalk.com/webcast/14883/338287?utm_campaign=Twitter&amp;utm_source=brighttalk-sharing&amp;utm_medium=web"&gt;continuous delivery to the cloud with Spinnaker&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Yet another epic installment of &lt;a href="https://itunes.apple.com/us/podcast/talking-kotlin/id1194631266?mt=2&amp;i=1000413742861#"&gt;the &lt;em&gt;Talking Kotlin&lt;/em&gt; podcast on monitoring applications with Micrometer&amp;rsquo;s own Jon Schneider&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;The Spring team&amp;rsquo;s epic Greg L. Turnquist has been busy pruning a lot of relics from the Spring guides from &lt;a href="https://spring.io/guides"&gt;the old pre-1.0 days of Spring Boot&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Expedia have a nice UI, &lt;a href="https://github.com/ExpediaDotCom/haystack-ui"&gt;Haystack&lt;/a&gt;, that can be paired with Zipkin. Cool!&lt;/li&gt;
+  &lt;li&gt;Vladimír Oraný has a nice 10-part series on &lt;a href="https://medium.com/@musketyr/groovy-dsl-builders-1-the-concept-2d5a97fa0a51"&gt;writing builder style DSLs in Apache Groovy.&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;The Baeldung blog has a nice post on &lt;a href="https://www.baeldung.com/spring-boot-testing"&gt;testing in Spring Boot&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Check out the &lt;a href="https://www.npmjs.com/package/generator-jhipster-kotlin"&gt;JHipster Kotlin 0.6.0 support&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;This is a prettu epic post on &lt;a href="https://cantina.co/getting-started-with-spring-boot-jooq-flyway-and-modelmapper/"&gt;getting started with Spring Boot, JOOQ, Flyway, and ModelMapper &lt;/a&gt; on the Cantina blog&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://projectriff.io/blog/announcing-riff-0-2-0/"&gt;Riff v0.2.0 is now available&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;This post - which looks at &lt;a href="https://medium.com/@lahtela/dynamic-flow-control-during-backpressure-with-rxjava-and-rsockets-41e369cda122"&gt;dynamic Flow Control during Backpressure with RxJava and RSockets&lt;/a&gt; - also maps nicely to Reactor concepts.&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
+  <entry>
+    <title>Spring Session Bean-SR1 and Apple-SR7 Released</title>
+    <link rel="alternate" href="https://spring.io/blog/2018/11/30/spring-session-bean-sr1-and-apple-sr7-released" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Rob Winch</name>
+    </author>
+    <id>tag:spring.io,2018-11-30:3485</id>
+    <updated>2018-11-30T19:29:00Z</updated>
+    <content type="html">&lt;div class="paragraph"&gt;
+&lt;p&gt;&lt;em&gt;This post was authored by &lt;a href="https://github.com/vpavic"&gt;Vedran Pavić&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;On behalf of the community I’m pleased to announce the releases of Spring Session BOM &lt;code&gt;Bean-SR1&lt;/code&gt; and &lt;code&gt;Apple-SR7&lt;/code&gt;. These maintenance releases are based on Spring Session &lt;code&gt;2.1.2.RELEASE&lt;/code&gt; and &lt;code&gt;2.0.8.RELEASE&lt;/code&gt;, respectively, which bring a couple of bug fixes together with the usual dependency upgrades.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Complete details of these releases can be found in the following changelogs:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="ulist"&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://github.com/spring-projects/spring-session/milestone/48?closed=1"&gt;&lt;code&gt;2.1.2.RELEASE&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://github.com/spring-projects/spring-session/milestone/47?closed=1"&gt;&lt;code&gt;2.0.8.RELEASE&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;&lt;a href="https://projects.spring.io/spring-session/"&gt;Project Page&lt;/a&gt; | &lt;a href="https://docs.spring.io/spring-session/docs/2.1.2.RELEASE/reference/html5/"&gt;Documentation&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-session/issues"&gt;Issues&lt;/a&gt; | &lt;a href="https://gitter.im/spring-projects/spring-session"&gt;Gitter&lt;/a&gt; | &lt;a href="https://stackoverflow.com/questions/tagged/spring-session"&gt;Stack Overflow&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <title>Spring Boot 2.1.1 available now</title>
+    <link rel="alternate" href="https://spring.io/blog/2018/11/30/spring-boot-2-1-1-available-now" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Madhura Bhave</name>
+    </author>
+    <id>tag:spring.io,2018-11-30:3483</id>
+    <updated>2018-11-30T11:02:30Z</updated>
+    <content type="html">&lt;p&gt;On behalf of the team and everyone that contributed, I&amp;rsquo;m happy to announce that Spring Boot 2.1.1 has been released and is is now available from &lt;a href="http://repo.spring.io/release"&gt;repo.spring.io&lt;/a&gt; and &lt;a href="http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22org.springframework.boot%22"&gt;Maven Central&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This release contains &lt;a href="https://github.com/spring-projects/spring-boot/releases/tag/v2.1.1.RELEASE"&gt;almost 70 closed issues and pull requests&lt;/a&gt; which include bug fixes, documentation updates and dependency upgrades. Thanks to everyone who contributed with issue reports and pull requests.&lt;/p&gt;&lt;h3&gt;&lt;a href="#how-can-you-help" class="anchor" name="how-can-you-help"&gt;&lt;/a&gt;How can you help?&lt;/h3&gt;
+&lt;p&gt;If you&amp;rsquo;re interested in helping out, check out the &lt;a href="https://github.com/spring-projects/spring-boot/labels/status%3A%20ideal-for-contribution"&gt;&amp;ldquo;ideal for contribution&amp;rdquo; tag&lt;/a&gt; in the issue repository. If you have general questions, please ask on &lt;a href="http://stackoverflow.com"&gt;stackoverflow.com&lt;/a&gt; using the &lt;a href="http://stackoverflow.com/tags/spring-boot"&gt;&lt;code&gt;spring-boot&lt;/code&gt; tag&lt;/a&gt; or chat with the community on &lt;a href="https://gitter.im/spring-projects/spring-boot"&gt;Gitter&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://spring.io/projects/spring-boot/"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-boot"&gt;GitHub&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-boot/issues"&gt;Issues&lt;/a&gt; | &lt;a href="http://docs.spring.io/spring-boot/docs/2.1.1.RELEASE/reference/htmlsingle"&gt;Documentation&lt;/a&gt; | &lt;a href="http://stackoverflow.com/questions/tagged/spring-boot"&gt;Stack Overflow&lt;/a&gt; | &lt;a href="https://gitter.im/spring-projects/spring-boot"&gt;Gitter&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Spring Boot 2.0.7 available now</title>
+    <link rel="alternate" href="https://spring.io/blog/2018/11/30/spring-boot-2-0-7-available-now" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Stéphane Nicoll</name>
+    </author>
+    <id>tag:spring.io,2018-11-30:3484</id>
+    <updated>2018-11-30T08:00:37Z</updated>
+    <content type="html">&lt;p&gt;On behalf of the team and everyone who has contributed, it is my pleasure to announce that Spring Boot 2.0.7 has been released and is is now available from &lt;a href="http://repo.spring.io/release"&gt;repo.spring.io&lt;/a&gt; and &lt;a href="http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22org.springframework.boot%22"&gt;Maven Central&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Spring Boot 2.0.7 includes &lt;a href="https://github.com/spring-projects/spring-boot/releases/tag/v2.0.7.RELEASE"&gt;81 fixes, improvements and dependency updates&lt;/a&gt;. Thanks to all that have contributed with issue reports and pull requests.&lt;/p&gt;&lt;h3&gt;&lt;a href="#how-can-you-help" class="anchor" name="how-can-you-help"&gt;&lt;/a&gt;How can you help?&lt;/h3&gt;
+&lt;p&gt;If you&amp;rsquo;re interested in helping out, check out the &lt;a href="https://github.com/spring-projects/spring-boot/labels/status%3A%20ideal-for-contribution"&gt;&amp;ldquo;ideal for contribution&amp;rdquo; tag&lt;/a&gt; in the issue repository. If you have general questions, please ask on &lt;a href="http://stackoverflow.com"&gt;stackoverflow.com&lt;/a&gt; using the &lt;a href="http://stackoverflow.com/tags/spring-boot"&gt;&lt;code&gt;spring-boot&lt;/code&gt; tag&lt;/a&gt; or chat with the community on &lt;a href="https://gitter.im/spring-projects/spring-boot"&gt;Gitter&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://spring.io/projects/spring-boot/"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-boot"&gt;GitHub&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-boot/issues"&gt;Issues&lt;/a&gt; | &lt;a href="http://docs.spring.io/spring-boot/docs/2.0.7.RELEASE/reference/htmlsingle"&gt;Documentation&lt;/a&gt; | &lt;a href="http://stackoverflow.com/questions/tagged/spring-boot"&gt;Stack Overflow&lt;/a&gt; | &lt;a href="https://gitter.im/spring-projects/spring-boot"&gt;Gitter&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Spring IO Platform Brussels-SR15</title>
+    <link rel="alternate" href="https://spring.io/blog/2018/11/29/spring-io-platform-brussels-sr15" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Andy Wilkinson</name>
+    </author>
+    <id>tag:spring.io,2018-11-29:3482</id>
+    <updated>2018-11-29T17:11:07Z</updated>
+    <content type="html">&lt;p&gt;I am pleased to announce that &lt;a href="https://spring.io/projects/platform"&gt;Spring IO Platform&lt;/a&gt; Brussels-SR15 is now available from both &lt;a href="https://repo.spring.io/release"&gt;repo.spring.io&lt;/a&gt; and Maven Central. &lt;/p&gt;
+&lt;p&gt;This maintenance release upgrades the versions of a number of the projects in the Platform:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Spring Boot 1.5.18&lt;/li&gt;
+  &lt;li&gt;Spring Cloud Connectors 1.2.7&lt;/li&gt;
+  &lt;li&gt;Spring Data Ingalls SR17&lt;/li&gt;
+  &lt;li&gt;Spring Framework 4.3.21&lt;/li&gt;
+  &lt;li&gt;Spring Integration 4.3.18&lt;/li&gt;
+  &lt;li&gt;Spring Security 4.2.10&lt;/li&gt;
+  &lt;li&gt;Spring Session 1.3.4&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The versions of a number of third-party dependencies have also been updated.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://spring.io/projects/platform"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-io/platform"&gt;GitHub&lt;/a&gt; | &lt;a href="https://github.com/spring-io/platform/issues"&gt;Issues&lt;/a&gt; | &lt;a href="http://docs.spring.io/platform/docs/Brussels-SR15/reference/htmlsingle"&gt;Documentation&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Spring Security 5.1.2, 5.0.10, 4.2.10  Released</title>
+    <link rel="alternate" href="https://spring.io/blog/2018/11/29/spring-security-5-1-2-5-0-10-4-2-10-released" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Rob Winch</name>
+    </author>
+    <id>tag:spring.io,2018-11-29:3481</id>
+    <updated>2018-11-29T14:50:55Z</updated>
+    <content type="html">&lt;div class="paragraph"&gt;
+&lt;p&gt;On behalf of the community I am pleased to announce the release of Spring Security 5.1.2 (&lt;a href="https://github.com/spring-projects/spring-security/issues?q=is%3Aclosed+milestone%3A5.1.2+sort%3Aupdated-desc"&gt;changelog&lt;/a&gt;), 5.0.10 (&lt;a href="https://github.com/spring-projects/spring-security/issues?q=is%3Aclosed+milestone%3A5.0.10+sort%3Aupdated-desc"&gt;changelog&lt;/a&gt;), and 4.2.10 (&lt;a href="https://github.com/spring-projects/spring-security/issues?q=is%3Aclosed+milestone%3A4.2.10+sort%3Aupdated-desc"&gt;changelog&lt;/a&gt;). This series of releases provides a round of bug fixes and users are encouraged to update to the latest patch release.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;&lt;a href="http://projects.spring.io/spring-security/"&gt;Project Site&lt;/a&gt; |
+&lt;a href="http://docs.spring.io/spring-security/site/docs/current/reference/htmlsingle/"&gt;Reference&lt;/a&gt; | &lt;a href="http://stackoverflow.com/questions/tagged/spring-security"&gt;Help&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <title>Spring Boot 1.5.18 available now</title>
+    <link rel="alternate" href="https://spring.io/blog/2018/11/29/spring-boot-1-5-18-available-now" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Stéphane Nicoll</name>
+    </author>
+    <id>tag:spring.io,2018-11-29:3480</id>
+    <updated>2018-11-29T11:34:00Z</updated>
+    <content type="html">&lt;p&gt;On behalf of the team and everyone who has contributed, I am pleased to announce that Spring Boot 1.5.18 has been released and is is now available from &lt;a href="http://repo.spring.io/release"&gt;repo.spring.io&lt;/a&gt; and &lt;a href="http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22org.springframework.boot%22"&gt;Maven Central&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Spring Boot 1.5.18 is a maintenance release that includes &lt;a href="https://github.com/spring-projects/spring-boot/releases/tag/v1.5.18.RELEASE"&gt;16 fixes, documentation improvements and dependency updates&lt;/a&gt;. Thanks to all that have contributed with issue reports and pull requests.&lt;/p&gt;
+&lt;p&gt;If you haven’t already upgraded to Spring Boot 2, please consider doing so as support for 1.x will &lt;a href="https://spring.io/blog/2018/07/30/spring-boot-1-x-eol-aug-1st-2019"&gt;end on August 1st 2019&lt;/a&gt;. &lt;/p&gt;&lt;h3&gt;&lt;a href="#how-can-you-help" class="anchor" name="how-can-you-help"&gt;&lt;/a&gt;How can you help?&lt;/h3&gt;
+&lt;p&gt;If you&amp;rsquo;re interested in helping out, check out the &lt;a href="https://github.com/spring-projects/spring-boot/labels/status%3A%20ideal-for-contribution"&gt;&amp;ldquo;ideal for contribution&amp;rdquo; tag&lt;/a&gt; in the issue repository. If you have general questions, please ask on &lt;a href="http://stackoverflow.com"&gt;stackoverflow.com&lt;/a&gt; using the &lt;a href="http://stackoverflow.com/tags/spring-boot"&gt;&lt;code&gt;spring-boot&lt;/code&gt; tag&lt;/a&gt; or chat with the community on &lt;a href="https://gitter.im/spring-projects/spring-boot"&gt;Gitter&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://spring.io/projects/spring-boot/"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-boot"&gt;GitHub&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-boot/issues"&gt;Issues&lt;/a&gt; | &lt;a href="http://docs.spring.io/spring-boot/docs/1.5.18.RELEASE/reference/htmlsingle"&gt;Documentation&lt;/a&gt; | &lt;a href="http://stackoverflow.com/questions/tagged/spring-boot"&gt;Stack Overflow&lt;/a&gt; | &lt;a href="https://gitter.im/spring-projects/spring-boot"&gt;Gitter&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>This Week in Spring - November 27th, 2018</title>
     <link rel="alternate" href="https://spring.io/blog/2018/11/27/this-week-in-spring-november-27th-2018" />
@@ -639,1002 +832,5 @@ dependencies {&#xD;
   &lt;li&gt;Spring Security lead &lt;a href="https://twitter.com/rob_winch/status/1059922370914406400?s=12"&gt;Rob Winch just added a &amp;ldquo;first-timers-only&amp;rdquo; issue to Spring Security&lt;/a&gt;. Ping them on the issue if you want to take it. They&amp;rsquo;re glad to help guide you through contributing to this issue.&lt;/li&gt;
   &lt;li&gt;Sharad Gupta has a nice post &lt;a href="https://medium.com/@sharadg_49240/rabbitmq-publisher-confirms-and-returns-callback-with-without-mandatory-flag-9fce2265e32f"&gt;on RabbitMQ publisher confirms and returns callback with/without the &amp;ldquo;mandatory&amp;rdquo; flag&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content>
-  </entry>
-  <entry>
-    <title>Spring Boot in a Container</title>
-    <link rel="alternate" href="https://spring.io/blog/2018/11/08/spring-boot-in-a-container" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Dave Syer</name>
-    </author>
-    <id>tag:spring.io,2018-11-08:3468</id>
-    <updated>2018-11-08T12:01:00Z</updated>
-    <content type="html">&lt;div class="paragraph"&gt;
-&lt;p&gt;Many people are using containers to wrap their Spring Boot applications, and building containers is not a simple thing to do. This is an article for developers of Spring Boot applications, and containers are not always a good abstraction for developers - they force you to learn about and think about very low level concerns - but you will on occasion be called on to create or use a container, so it pays to understand the building blocks. Here we aim to show you some of the choices you can make if you are faced with the prospect of needing to create your own container.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;We will assume that you know how to create and build a basic Spring Boot application. If you don&amp;#8217;t, go to one of the &lt;a href="https://spring.io/guides"&gt;Getting Started Guides&lt;/a&gt;, for example the one on building a &lt;a href="https://spring.io/guides/gs/rest-service/"&gt;REST Service&lt;/a&gt;. Copy the code from there and practise with some of the ideas below. There is also a Getting Started Guide on &lt;a href="https://spring.io/guides/gs/spring-boot-docker"&gt;Docker&lt;/a&gt;, which would also be a good starting point, but it doesn&amp;#8217;t cover the range of choices that we have here, or in as much detail.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="admonitionblock note"&gt;
-&lt;table&gt;
-&lt;tr&gt;
-&lt;td class="icon"&gt;
-&lt;i class="fa icon-note" title="Note"&gt;&lt;/i&gt;
-&lt;/td&gt;
-&lt;td class="content"&gt;
-This blog is also a "topical" guide on the spring.io website. Visit it here for updates: &lt;a href="https://spring.io/guides/topicals/spring-boot-docker/" class="bare"&gt;https://spring.io/guides/topicals/spring-boot-docker/&lt;/a&gt;.
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;div class="sect1"&gt;
-&lt;h2 id="a-basic-dockerfile"&gt;&lt;a class="anchor" href="#a-basic-dockerfile"&gt;&lt;/a&gt;A Basic Dockerfile&lt;/h2&gt;
-&lt;div class="sectionbody"&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;A Spring Boot application is easy to convert into an executable JAR file. All the &lt;a href="https://spring.io/guides"&gt;Getting Started Guides&lt;/a&gt; do this, and every app that you download from &lt;a href="https://start.spring.io"&gt;Spring Initializr&lt;/a&gt; will have a build step to create an executable JAR. With Maven you &lt;code&gt;./mvnw install&lt;/code&gt; and with Gradle you &lt;code&gt;./gradlew build&lt;/code&gt;. A basic Dockerfile to run that JAR would then look like this, at the top level of your project:&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;&lt;code&gt;Dockerfile&lt;/code&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="listingblock"&gt;
-&lt;div class="content"&gt;
-&lt;pre class="prettyprint highlight"&gt;&lt;code&gt;FROM openjdk:8-jdk-alpine
-VOLUME /tmp
-ARG JAR_FILE
-COPY ${JAR_FILE} app.jar
-ENTRYPOINT ["java","-jar","/app.jar"]&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;The &lt;code&gt;JAR_FILE&lt;/code&gt; could be passed in as part of the &lt;code&gt;docker&lt;/code&gt; command (it will be different for Maven and Gradle). E.g. for Maven:&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="listingblock"&gt;
-&lt;div class="content"&gt;
-&lt;pre class="prettyprint highlight"&gt;&lt;code&gt;$ docker build --build-args=target/*.jar -t myorg/myapp .&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;and for Gradle:&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="listingblock"&gt;
-&lt;div class="content"&gt;
-&lt;pre class="prettyprint highlight"&gt;&lt;code&gt;$ docker build --build-args=build/libs/*.jar -t myorg/myapp .&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;Of course, once you have chosen a build system, you don&amp;#8217;t need the &lt;code&gt;ARG&lt;/code&gt; - you can just hard code the jar location. E.g. for Maven:&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;&lt;code&gt;Dockerfile&lt;/code&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="listingblock"&gt;
-&lt;div class="content"&gt;
-&lt;pre class="prettyprint highlight"&gt;&lt;code&gt;FROM openjdk:8-jdk-alpine
-VOLUME /tmp
-COPY target/*.jar app.jar
-ENTRYPOINT ["java","-jar","/app.jar"]&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;Then we can simply build an image with&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="listingblock"&gt;
-&lt;div class="content"&gt;
-&lt;pre class="prettyprint highlight"&gt;&lt;code&gt;$ docker build -t myorg/myapp .&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;and run it like this:&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="listingblock"&gt;
-&lt;div class="content"&gt;
-&lt;pre class="prettyprint highlight"&gt;&lt;code&gt;$ docker run -p 8080:8080 myorg/myapp
-  .   ____          _            __ _ _
- /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
-( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
- \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
-  '  |____| .__|_| |_|_| |_\__, | / / / /
- =========|_|==============|___/=/_/_/_/
- :: Spring Boot ::        (v2.0.2.RELEASE)
-
-Nov 06, 2018 2:45:16 PM org.springframework.boot.StartupInfoLogger logStarting
-INFO: Starting Application v0.1.0 on b8469cdc9b87 with PID 1 (/app.jar started by root in /)
-Nov 06, 2018 2:45:16 PM org.springframework.boot.SpringApplication logStartupProfileInfo
-...&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;Notice that the base image is &lt;code&gt;openjdk:8-jdk-alpine&lt;/code&gt;. The &lt;code&gt;alpine&lt;/code&gt; images are smaller than the standard &lt;code&gt;openjdk&lt;/code&gt; library images from &lt;a href="https://hub.docker.com/_/openjdk/"&gt;Dockerhub&lt;/a&gt;. There is no official alpine image for Java 11 yet (AdoptOpenJDK had one for a while but it no longer appears on their &lt;a href="https://hub.docker.com/r/adoptopenjdk/openjdk11/"&gt;Dockerhub page&lt;/a&gt;).&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;If you want to poke around inside the image you can open a shell in it like this (the base image does not have &lt;code&gt;bash&lt;/code&gt;):&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="listingblock"&gt;
-&lt;div class="content"&gt;
-&lt;pre class="prettyprint highlight"&gt;&lt;code&gt;$ docker run -ti --entrypoint /bin/sh myorg/myapp
-/ # ls
-app.jar  dev      home     media    proc     run      srv      tmp      var
-bin      etc      lib      mnt      root     sbin     sys      usr
-/ #&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;The docker configuration is very simple so far, and the generated image is not very efficient. The docker image has a single filesystem layer with the fat jar in it, and every change we make to the application code changes that layer, which might be 10MB or more (even as much as 50MB for some apps). We can improve on that by splitting the JAR up into multiple layers.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="sect1"&gt;
-&lt;h2 id="a-better-dockerfile"&gt;&lt;a class="anchor" href="#a-better-dockerfile"&gt;&lt;/a&gt;A Better Dockerfile&lt;/h2&gt;
-&lt;div class="sectionbody"&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;A Spring Boot fat jar naturally has "layers" because of the way that the jar itself is packaged. If we unpack it first it will already be divided into external and internal dependencies. To do this in one step in the docker build, we need to unpack the jar first. For example (sticking with Maven, but the Gradle version is pretty similar):&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="listingblock"&gt;
-&lt;div class="content"&gt;
-&lt;pre class="prettyprint highlight"&gt;&lt;code&gt;$ mkdir target/dependency
-$ (cd target/dependency; tar -zxf ../*.jar)
-$ docker build -t myorg/myapp .&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;with this &lt;code&gt;Dockerfile&lt;/code&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;&lt;code&gt;Dockerfile&lt;/code&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="listingblock"&gt;
-&lt;div class="content"&gt;
-&lt;pre class="prettyprint highlight"&gt;&lt;code&gt;FROM openjdk:8-jdk-alpine
-VOLUME /tmp
-ARG DEPENDENCY=target/dependency
-COPY ${DEPENDENCY}/BOOT-INF/lib /app/lib
-COPY ${DEPENDENCY}/META-INF /app/META-INF
-COPY ${DEPENDENCY}/BOOT-INF/classes /app
-ENTRYPOINT ["java","-cp","app:app/lib/*","hello.Application"]&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;There are now 3 layers, with all the application resources in the later 2 layers. If the application dependencies don&amp;#8217;t change, then the first layer (from &lt;code&gt;BOOT-INF/lib&lt;/code&gt;) will not change, so the build will be faster, and so will the startup of the container at runtime as long as the base layers are already cached.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="admonitionblock note"&gt;
-&lt;table&gt;
-&lt;tr&gt;
-&lt;td class="icon"&gt;
-&lt;i class="fa icon-note" title="Note"&gt;&lt;/i&gt;
-&lt;/td&gt;
-&lt;td class="content"&gt;
-We used a hard-coded main application class &lt;code&gt;hello.Application&lt;/code&gt;. This will probably be different for your application. You could parameterize it with another &lt;code&gt;ARG&lt;/code&gt; if you wanted. You could also copy the Spring Boot fat &lt;code&gt;JarLauncher&lt;/code&gt; into the image and use it to run the app - it would work and you wouldn&amp;#8217;t need to specify the main class, but it would be a bit slower on startup.
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="sect1"&gt;
-&lt;h2 id="tweaks"&gt;&lt;a class="anchor" href="#tweaks"&gt;&lt;/a&gt;Tweaks&lt;/h2&gt;
-&lt;div class="sectionbody"&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;If you want to start your app as quickly as possible (most people do) there are some tweaks you might consider. Here are some ideas:&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="ulist"&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Use the &lt;code&gt;spring-context-indexer&lt;/code&gt; (&lt;a href="https://docs.spring.io/spring/docs/current/spring-framework-reference/core.html#beans-scanning-index"&gt;link to docs&lt;/a&gt;). It&amp;#8217;s not going to add much for small apps, but every little helps.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Don&amp;#8217;t use &lt;a href="https://docs.spring.io/spring-boot/docs/current-SNAPSHOT/reference/htmlsingle/#production-ready"&gt;actuators&lt;/a&gt; if you can afford not to.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Use Spring Boot 2.1 and Spring 5.1.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Fix the location of the
-&lt;a href="https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#boot-features-external-config-application-property-files"&gt;Spring Boot config file(s)&lt;/a&gt;
-with &lt;code&gt;spring.config.location&lt;/code&gt; (command line argument or System property etc.).&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Switch off JMX - you probably don&amp;#8217;t need it in a container - with &lt;code&gt;spring.jmx.enabled=false&lt;/code&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Run the JVM with &lt;code&gt;-noverify&lt;/code&gt;. Also consider &lt;code&gt;-XX:TieredStopAtLevel=1&lt;/code&gt;
-(that will slow down the JIT later at the expense of the saved startup time).&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Use the container memory hints for Java 8: &lt;code&gt;-XX:+UnlockExperimentalVMOptions -XX:+UseCGroupMemoryLimitForHeap&lt;/code&gt;. With Java 11 this is automatic by default.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;Your app might not need a full CPU at runtime, but it will need multiple CPUs to start up as quickly as possible (at least 2, 4 are better). If you don&amp;#8217;t mind a slower startup you could throttle the CPUs down below 4.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="sect1"&gt;
-&lt;h2 id="multi-stage-build"&gt;&lt;a class="anchor" href="#multi-stage-build"&gt;&lt;/a&gt;Multi-Stage Build&lt;/h2&gt;
-&lt;div class="sectionbody"&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;The &lt;code&gt;Dockerfile&lt;/code&gt; above assumed that the fat JAR was already built on the command line. You can also do that step in docker using a multi-stage build, copying the result from one image to another. Example, using Maven:&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;&lt;code&gt;Dockerfile&lt;/code&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="listingblock"&gt;
-&lt;div class="content"&gt;
-&lt;pre class="prettyprint highlight"&gt;&lt;code&gt;FROM openjdk:8-jdk-alpine as build
-WORKDIR /workspace/app
-
-COPY mvnw .
-COPY .mvn .mvn
-COPY pom.xml .
-COPY src src
-
-RUN ./mvnw install -DskipTests
-RUN mkdir -p target/dependency &amp;amp;&amp;amp; (cd target/dependency; jar -xf ../*.jar)
-
-FROM openjdk:8-jdk-alpine
-VOLUME /tmp
-ARG DEPENDENCY=/workspace/app/target/dependency
-COPY --from=build ${DEPENDENCY}/BOOT-INF/lib /app/lib
-COPY --from=build ${DEPENDENCY}/META-INF /app/META-INF
-COPY --from=build ${DEPENDENCY}/BOOT-INF/classes /app
-ENTRYPOINT ["java","-cp","app:app/lib/*","hello.Application"]&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;The first image is labelled "build" and it is used to run Maven and build the fat jar, then unpack it. The unpacking could also be done by Maven or Gradle (this is the approach taken in the Getting Started Guide) - there really isn&amp;#8217;t much difference, except that the build configuration would have to be edited and a plugin added.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;Notice that the source code has been split into 4 layers. The later layers contain the build configuration and the source code for the app, and the earlier layers contain the build system itself (the Maven wrapper). This is a small optimization, and it also means that we don&amp;#8217;t have to copy the &lt;code&gt;target&lt;/code&gt; directory to a docker image, even a temporary one used for the build.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;Every build where the source code changes will be slow because the Maven cache has to be re-created in the first &lt;code&gt;RUN&lt;/code&gt; section. But you have a completely standalone build that anyone can run to get your application running as long as they have docker. That can be quite useful in some environments, e.g. where you need to share your code with people who don&amp;#8217;t know Java.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="sect1"&gt;
-&lt;h2 id="build-plugins"&gt;&lt;a class="anchor" href="#build-plugins"&gt;&lt;/a&gt;Build Plugins&lt;/h2&gt;
-&lt;div class="sectionbody"&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;If you don&amp;#8217;t want to call &lt;code&gt;docker&lt;/code&gt; directly in your build, there is quite a rich set of plugins for Maven and Gradle that can do that work for you. Here are just a few.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="sect2"&gt;
-&lt;h3 id="spotify-maven-plugin"&gt;&lt;a class="anchor" href="#spotify-maven-plugin"&gt;&lt;/a&gt;Spotify Maven Plugin&lt;/h3&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;The &lt;a href="https://github.com/spotify/dockerfile-maven"&gt;Spotify Maven Plugin&lt;/a&gt; is a popular choice. It requires the application developer to write a &lt;code&gt;Dockerfile&lt;/code&gt; and then runs &lt;code&gt;docker&lt;/code&gt; for you, just as if you were doing it on the command line. There are some configuration options for the docker image tag and other stuff, but it keeps the docker knowledge in your application concentrated in a &lt;code&gt;Dockerfile&lt;/code&gt;, which many people like.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;For really basic usage it will work out of the box with no extra configuration:&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="listingblock"&gt;
-&lt;div class="content"&gt;
-&lt;pre class="prettyprint highlight"&gt;&lt;code&gt;$ mvn com.spotify:dockerfile-maven-plugin:build
-...
-[INFO] Building Docker context /home/dsyer/dev/demo/workspace/myapp
-[INFO]
-[INFO] Image will be built without a name
-[INFO]
-...
-[INFO] BUILD SUCCESS
-[INFO] ------------------------------------------------------------------------
-[INFO] Total time: 7.630 s
-[INFO] Finished at: 2018-11-06T16:03:16+00:00
-[INFO] Final Memory: 26M/595M
-[INFO] ------------------------------------------------------------------------&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;That builds an anonymous docker image. We can tag it with &lt;code&gt;docker&lt;/code&gt; on the command line now, or use Maven configuration to set it as the &lt;code&gt;repository&lt;/code&gt;. Example (without changing the &lt;code&gt;pom.xml&lt;/code&gt;):&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="listingblock"&gt;
-&lt;div class="content"&gt;
-&lt;pre class="prettyprint highlight"&gt;&lt;code&gt;$ mvn com.spotify:dockerfile-maven-plugin:build -Ddockerfile.repository=myorg/myapp&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;Or in the &lt;code&gt;pom.xml&lt;/code&gt;:&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;&lt;code&gt;pom.xml&lt;/code&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="listingblock"&gt;
-&lt;div class="content"&gt;
-&lt;pre class="prettyprint highlight"&gt;&lt;code&gt;&amp;lt;build&amp;gt;
-    &amp;lt;plugins&amp;gt;
-        &amp;lt;plugin&amp;gt;
-            &amp;lt;groupId&amp;gt;com.spotify&amp;lt;/groupId&amp;gt;
-            &amp;lt;artifactId&amp;gt;dockerfile-maven-plugin&amp;lt;/artifactId&amp;gt;
-            &amp;lt;version&amp;gt;1.4.8&amp;lt;/version&amp;gt;
-            &amp;lt;configuration&amp;gt;
-                &amp;lt;repository&amp;gt;myorg/${project.artifactId}&amp;lt;/repository&amp;gt;
-            &amp;lt;/configuration&amp;gt;
-        &amp;lt;/plugin&amp;gt;
-    &amp;lt;/plugins&amp;gt;
-&amp;lt;/build&amp;gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="sect2"&gt;
-&lt;h3 id="palantir-gradle-plugin"&gt;&lt;a class="anchor" href="#palantir-gradle-plugin"&gt;&lt;/a&gt;Palantir Gradle Plugin&lt;/h3&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;The &lt;a href="https://github.com/palantir/gradle-docker"&gt;Palantir Gradle Plugin&lt;/a&gt; works with a &lt;code&gt;Dockerfile&lt;/code&gt; and it also is able to generate a &lt;code&gt;Dockerfile&lt;/code&gt; for you, and then it runs &lt;code&gt;docker&lt;/code&gt; as if you were running it on the command line.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;First you need to import the plugin into your &lt;code&gt;build.gradle&lt;/code&gt;:&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;&lt;code&gt;build.gradle&lt;/code&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="listingblock"&gt;
-&lt;div class="content"&gt;
-&lt;pre class="prettyprint highlight"&gt;&lt;code class="language-groovy" data-lang="groovy"&gt;buildscript {
-    ...
-    dependencies {
-        ...
-        classpath('gradle.plugin.com.palantir.gradle.docker:gradle-docker:0.13.0')
-    }
-}&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;and then finally you apply the plugin and call its task:&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;&lt;code&gt;build.gradle&lt;/code&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="listingblock"&gt;
-&lt;div class="content"&gt;
-&lt;pre class="prettyprint highlight"&gt;&lt;code class="language-groovy" data-lang="groovy"&gt;apply plugin: 'com.palantir.docker'
-
-group = 'myorg'
-
-bootJar {
-    baseName = 'myapp'
-    version =  '0.1.0'
-}
-
-task unpack(type: Copy) {
-    dependsOn bootJar
-    from(zipTree(tasks.bootJar.outputs.files.singleFile))
-    into("build/dependency")
-}
-docker {
-    name "${project.group}/${bootJar.baseName}"
-    copySpec.from(tasks.unpack.outputs).into("dependency")
-    buildArgs(['DEPENDENCY': "dependency"])
-}&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;In this example we have chosen to unpack the Spring Boot fat jar in a specific location in the &lt;code&gt;build&lt;/code&gt; directory, which is the root for the docker build. Then the multi-layer (not multi-stage) &lt;code&gt;Dockerfile&lt;/code&gt; from above will work.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="sect2"&gt;
-&lt;h3 id="jib-maven-and-gradle-plugins"&gt;&lt;a class="anchor" href="#jib-maven-and-gradle-plugins"&gt;&lt;/a&gt;Jib Maven and Gradle Plugins&lt;/h3&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;Google has an open source tool called &lt;a href="https://github.com/GoogleContainerTools/jib"&gt;Jib&lt;/a&gt; that is relatively new, but quite interesting for a number of reasons. Probably the most interesting thing is that you don&amp;#8217;t need docker to run it - it builds the image using the same standard output as you get from &lt;code&gt;docker build&lt;/code&gt; but doesn&amp;#8217;t use &lt;code&gt;docker&lt;/code&gt; unless you ask it to - so it works in environments where docker is not installed (not uncommon in build servers). You also don&amp;#8217;t need a &lt;code&gt;Dockerfile&lt;/code&gt; (it would be ignored anyway), or anything in your &lt;code&gt;pom.xml&lt;/code&gt; to get an image built in Maven (Gradle would require you to at least install the plugin in &lt;code&gt;build.gradle&lt;/code&gt;).&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;Another interesting feature of Jib is that it is opinionated about layers, and it optimizes them in a slightly different way than the multi-layer &lt;code&gt;Dockerfile&lt;/code&gt; created above. Just like in the fat jar, Jib separates local application resources from dependencies, but it goes a step further and also puts snapshot dependencies into a separate layer, since they are more likely to change. There are configuration options for customizing the layout further.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;Example with Maven (without changing the &lt;code&gt;pom.xml&lt;/code&gt;):&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="listingblock"&gt;
-&lt;div class="content"&gt;
-&lt;pre class="prettyprint highlight"&gt;&lt;code&gt;$ mvn com.google.cloud.tools:jib-maven-plugin:build -Dimage=myorg/myapp&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;To run the above command you will need to have permission to push to Dockerhub under the &lt;code&gt;myorg&lt;/code&gt; repository prefix. If you have authenticated with &lt;code&gt;docker&lt;/code&gt; on the command line, that will work from your local &lt;code&gt;~/.docker&lt;/code&gt; configuration. You can also set up a Maven "server" authentication in your &lt;code&gt;~/.m2/settings.xml&lt;/code&gt; (the &lt;code&gt;id&lt;/code&gt; of the repository ios significant):&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;&lt;code&gt;settings.xml&lt;/code&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="listingblock"&gt;
-&lt;div class="content"&gt;
-&lt;pre class="prettyprint highlight"&gt;&lt;code&gt;    &amp;lt;server&amp;gt;
-      &amp;lt;id&amp;gt;registry.hub.docker.com&amp;lt;/id&amp;gt;
-      &amp;lt;username&amp;gt;myorg&amp;lt;/username&amp;gt;
-      &amp;lt;password&amp;gt;...&amp;lt;/password&amp;gt;
-    &amp;lt;/server&amp;gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;There are other options, e.g. you can build locally against a docker daemon (like running &lt;code&gt;docker&lt;/code&gt; on the command line), using the &lt;code&gt;dockerBuild&lt;/code&gt; goal instead of &lt;code&gt;build&lt;/code&gt;. Other container registries are also supported and for each one you will need to set up local authentication via docker or Maven settings.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;The gradle plugin has similar features, once you have it in your &lt;code&gt;build.gradle&lt;/code&gt;, e.g.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;&lt;code&gt;build.gradle&lt;/code&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="listingblock"&gt;
-&lt;div class="content"&gt;
-&lt;pre class="prettyprint highlight"&gt;&lt;code class="language-groovy" data-lang="groovy"&gt;plugins {
-  ...
-  id 'com.google.cloud.tools.jib' version '0.9.11'
-}&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;or in the older style used in the Getting Started Guides:&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;&lt;code&gt;build.gradle&lt;/code&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="listingblock"&gt;
-&lt;div class="content"&gt;
-&lt;pre class="prettyprint highlight"&gt;&lt;code class="language-groovy" data-lang="groovy"&gt;buildscript {
-    repositories {
-      maven {
-        url "https://plugins.gradle.org/m2/"
-      }
-      mavenCentral()
-    }
-    dependencies {
-        classpath('org.springframework.boot:spring-boot-gradle-plugin:2.0.5.RELEASE')
-        classpath('com.google.cloud.tools.jib:com.google.cloud.tools.jib.gradle.plugin:0.9.11')
-    }
-}&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;and then you can build an image with&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="listingblock"&gt;
-&lt;div class="content"&gt;
-&lt;pre class="prettyprint highlight"&gt;&lt;code&gt;$ ./gradlew jib --image=myorg/myapp&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;As with the Maven build, if you have authenticated with &lt;code&gt;docker&lt;/code&gt; on the command line, the image push will authenticate from your local &lt;code&gt;~/.docker&lt;/code&gt; configuration.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="sect1"&gt;
-&lt;h2 id="continuous-integration"&gt;&lt;a class="anchor" href="#continuous-integration"&gt;&lt;/a&gt;Continuous Integration&lt;/h2&gt;
-&lt;div class="sectionbody"&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;Automation is part of every application lifecycle these days (or should be). The tools that people use to do the automation tend to be quite good at just invoking the build system from the source code. So if that gets you a docker image, and the environment in the build agents is sufficiently aligned with developer&amp;#8217;s own environment, that might be good enough. Authenticating to the docker registry is likely to be the biggest challenge, but there are features in all the automation tools to help with that.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;However, sometimes it is better to leave container creation completely to an automation layer, in which case the user&amp;#8217;s code might not need to be polluted. Container creation is tricky, and developers sometimes don&amp;#8217;t really care about it. If the user code is cleaner there is more chance that a different tool can "do the right thing", applying security fixes, optimizing caches etc. There are multiple options for automation and they will all come with some features related to containers these days. We are just going to look at a couple.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="sect2"&gt;
-&lt;h3 id="concourse"&gt;&lt;a class="anchor" href="#concourse"&gt;&lt;/a&gt;Concourse&lt;/h3&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;&lt;a href="https://concourse-ci.org"&gt;Concourse&lt;/a&gt; is a pipeline-based automation platform that can be used for CI and CD. It is heavily used inside Pivotal and the main authors of the project work there. Everything in Concourse is stateless and everything runs in a container, except the CLI. Since running containers is the main order of business for the automation pipelines, creating containers is well supported. The &lt;a href="https://github.com/concourse/docker-image-resource"&gt;Docker Image Resource&lt;/a&gt; is responsible for keeping the output state of your build up to date, if it is a container image.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;Here&amp;#8217;s an example pipeline that builds a docker image for the sample above, assuming it is in github at &lt;code&gt;myorg/myapp&lt;/code&gt; and has a &lt;code&gt;Dockerfile&lt;/code&gt; at the root and a build task declaration in &lt;code&gt;src/main/ci/build.yml&lt;/code&gt;:&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="listingblock"&gt;
-&lt;div class="content"&gt;
-&lt;pre class="prettyprint highlight"&gt;&lt;code&gt;resources:
-- name: myapp
-  type: git
-  source:
-    uri: https://github.com/myorg/myapp.git
-- name: myapp-image
-  type: docker-image
-  source:
-    email: {{docker-hub-email}}
-    username: {{docker-hub-username}}
-    password: {{docker-hub-password}}
-    repository: myorg/myapp
-
-jobs:
-- name: main
-  plan:
-  - task: build
-    file: myapp/src/main/ci/build.yml
-  - put: myapp-image
-    params:
-      build: myapp&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;The structure of a pipeline is very declarative: you define "resources" (which are either input or output or both), and "jobs" (which use and apply actions to resources). If any of the input resources changes a new build is triggered. If any of the output resources changes during a job, then it is updated.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;The pipeline could be defined in a different place than the application source code. And for a generic build setup the task declarations could be centralized or externalized as well. This allows some separation of concerns between development and automation, if that&amp;#8217;s the way you roll.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="sect2"&gt;
-&lt;h3 id="jenkins"&gt;&lt;a class="anchor" href="#jenkins"&gt;&lt;/a&gt;Jenkins&lt;/h3&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;&lt;a href="https://jenkins.io"&gt;Jenkins&lt;/a&gt; is another popular automation server. It has a huge range of features, but one that is the closest to the other automation samples here is the &lt;a href="https://jenkins.io/doc/book/pipeline/docker/"&gt;pipeline&lt;/a&gt; feature. Here&amp;#8217;s a &lt;code&gt;Jenkinsfile&lt;/code&gt; that builds a Spring Boot project with Maven and then uses a &lt;code&gt;Dockerfile&lt;/code&gt; to build an image and push it to a repository:&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;&lt;code&gt;Jenkinsfile&lt;/code&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="listingblock"&gt;
-&lt;div class="content"&gt;
-&lt;pre class="prettyprint highlight"&gt;&lt;code&gt;node {
-    checkout scm
-    sh './mvnw -B -DskipTests clean package'
-    docker.build("myorg/myapp").push()
-}&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;For a (realistic) docker repository that needs authentication in the build server, you can add credentials to the &lt;code&gt;docker&lt;/code&gt; object above using &lt;code&gt;docker.withCredentials(&amp;#8230;&amp;#8203;)&lt;/code&gt;.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="sect1"&gt;
-&lt;h2 id="buildpacks"&gt;&lt;a class="anchor" href="#buildpacks"&gt;&lt;/a&gt;Buildpacks&lt;/h2&gt;
-&lt;div class="sectionbody"&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;&lt;a href="https://www.cloudfoundry.org/"&gt;Cloud Foundry&lt;/a&gt; has used containers internally for many years now, and part of the technology used to transform user code into containers is Build Packs, an idea originally borrowed from &lt;a href="https://www.heroku.com/"&gt;Heroku&lt;/a&gt;. The current generation of buildpacks (v2) generates generic binary output that is assembled into a container by the platform. The &lt;a href="https://buildpacks.io/"&gt;new generation of buildpacks&lt;/a&gt; (v3) is a collaboration between Heroku and other companies including Pivotal, and it builds container images directly and explicitly. This is very interesting for developers and operators. Developers don&amp;#8217;t need to care so much about the details of how to build a container, but they can easily create one if they need to. Buildpacks also have lots of features for caching build results and dependencies, so often a buildpack will run much quicker than a native docker build.  Operators can scan the containers to audit their contents and transform them to patch them for security updates. And you can run the buildpacks locally (e.g. on a developer machine, or in a CI service), or in a platform like Cloud Foundry.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;The output from a buildpack lifecycle is a container image, but you don&amp;#8217;t need docker or a &lt;code&gt;Dockerfile&lt;/code&gt;, so it&amp;#8217;s CI and automation friendly. The filesystem layers in the output image are controlled by the buildpack, and typically many optimizations will be made without the developer having to know or care about them. There is also an &lt;a href="https://en.wikipedia.org/wiki/Application_binary_interface"&gt;Application Binary Interface&lt;/a&gt; between the lower level layers, like the base image containing the operating system, and the upper layers, containing middleware and language specific dependencies. This makes it possible for a platform, like Cloud Foundry, to patch lower layers if there are security updates without affecting the integrity and functionality of the application.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;To give you an idea of the features of a buildpack here is an example using the &lt;a href="https://github.com/buildpack/pack"&gt;Pack CLI&lt;/a&gt; from the command line (it would work with the sample app we have been using in thus article, no need for a &lt;code&gt;Dockerfile&lt;/code&gt; or any special build configuration):&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="listingblock"&gt;
-&lt;div class="content"&gt;
-&lt;pre class="prettyprint highlight"&gt;&lt;code&gt;$ pack build myorg/myapp --builder=nebhale/java-build --path=.
-2018/11/07 09:54:48 Pulling builder image 'nebhale/java-build' (use --no-pull flag to skip this step)
-2018/11/07 09:54:49 Selected run image 'packs/run' from stack 'io.buildpacks.stacks.bionic'
-2018/11/07 09:54:49 Pulling run image 'packs/run' (use --no-pull flag to skip this step)
-*** DETECTING:
-2018/11/07 09:54:52 Group: Cloud Foundry OpenJDK Buildpack: pass | Cloud Foundry Build System Buildpack: pass | Cloud Foundry JVM Application Buildpack: pass
-*** ANALYZING: Reading information from previous image for possible re-use
-*** BUILDING:
------&amp;gt; Cloud Foundry OpenJDK Buildpack 1.0.0-BUILD-SNAPSHOT
------&amp;gt; OpenJDK JDK 1.8.192: Reusing cached dependency
------&amp;gt; OpenJDK JRE 1.8.192: Reusing cached launch layer
-
------&amp;gt; Cloud Foundry Build System Buildpack 1.0.0-BUILD-SNAPSHOT
------&amp;gt; Using Maven wrapper
-       Linking Maven Cache to /home/pack/.m2
------&amp;gt; Building application
-       Running /workspace/app/mvnw -Dmaven.test.skip=true package
-...
----&amp;gt; Running in e6c4a94240c2
----&amp;gt; 4f3a96a4f38c
----&amp;gt; 4f3a96a4f38c
-Successfully built 4f3a96a4f38c
-Successfully tagged myorg/myapp:latest
-$ docker run -p 8080:8080 myorg/myapp
-  .   ____          _            __ _ _
- /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
-( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
- \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
-  '  |____| .__|_| |_|_| |_\__, | / / / /
- =========|_|==============|___/=/_/_/_/
- :: Spring Boot ::        (v2.0.5.RELEASE)
-
-2018-11-07 09:41:06.390  INFO 1 --- [ main] hello.Application: Starting Application on 1989fb9a00a4 with PID 1 (/workspace/app/BOOT-INF/classes started by pack in /workspace/app)
-...&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;The &lt;code&gt;--builder&lt;/code&gt; is a docker image that runs the buildpack lifecycle - typically it would be a shared resource for all developers, or all developers on a single platform. This one is work in progress from Ben Hale, who maintains the older buildpacks for Cloud Foundry and is now working on the new generation. The output in this case went to the local docker daemon, but in an automation platform it could be a docker registry. Once the &lt;code&gt;pack&lt;/code&gt; CLI reaches a stable release the default builder will probably do the same thing.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="sect1"&gt;
-&lt;h2 id="knative"&gt;&lt;a class="anchor" href="#knative"&gt;&lt;/a&gt;Knative&lt;/h2&gt;
-&lt;div class="sectionbody"&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;Another new project in the container and platform space is &lt;a href="https://cloud.google.com/knative/"&gt;Knative&lt;/a&gt;. Knative is a lot of things, but if you are not familiar with it you can think of it as a building block for building a serverless platform. It is built on &lt;a href="https://kubernetes.io"&gt;Kubernetes&lt;/a&gt; so ultimately it consumes container images, and turns them into applications or "services" on the platform. One of the main features it has, though, is the ability to consume source code and build the container for you, making it more developer and operator friendly. &lt;a href="https://github.com/knative/build"&gt;Knative Build&lt;/a&gt; is the component that does this and is itself a flexible platform for transforming user code into containers - you can do it in pretty much any way you like. Some templates are provided with common patterns like Maven and Gradle builds, and multi-stage docker builds using &lt;a href="https://github.com/GoogleContainerTools/kaniko"&gt;Kaniko&lt;/a&gt;. There is also a template that use &lt;a href="https://github.com/knative/build-templates/tree/master/buildpack"&gt;Buildpacks&lt;/a&gt; which is very interesting for us, since buildpacks have always had good support for Spring Boot. Buildpacks on Knative are also the opinionated choice of &lt;a href="https://projectriff.io"&gt;Riff&lt;/a&gt; and &lt;a href="https://pivotal.io/platform/pivotal-function-service"&gt;Pivotal Function Service&lt;/a&gt; for transforming user functions into running serverless apps.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="sect1"&gt;
-&lt;h2 id="closing"&gt;&lt;a class="anchor" href="#closing"&gt;&lt;/a&gt;Closing&lt;/h2&gt;
-&lt;div class="sectionbody"&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;This article has presented a lot of options for building container images for Spring Boot applications. All of them are completely valid choices, and it is now up to you to decide which one you need. Your first question should be "do I really need to build a container image?" If the answer is "yes" then your choices will likely be driven by efficiency and cacheability, and by separation of concerns. Do you want to insulate developers from needing to know too much about how container images are created? Do you want to make developers responsible for updating images when operating system and middleware vulnerabilities neeed to be patched? Or maybe developers need complete control over the whole process and they have all the tools and knowledge they need.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;</content>
-  </entry>
-  <entry>
-    <title>This Week in Spring - Tuesday, November 6th, 2018</title>
-    <link rel="alternate" href="https://spring.io/blog/2018/11/06/this-week-in-spring-tuesday-november-6th-2018" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Josh Long</name>
-    </author>
-    <id>tag:spring.io,2018-11-06:3467</id>
-    <updated>2018-11-06T16:35:32Z</updated>
-    <content type="html">&lt;p&gt;Hi Spring fans! Welcome to another installment of &lt;em&gt;This Week in Spring&lt;/em&gt;. I&amp;rsquo;m in Tokyo, Japan, for the epic SpringOne Tour Japan event and then, it&amp;rsquo;s off to Seoul, South Korea and then Singapore. I&amp;rsquo;m trying to keep busy! I delivered two 3+ hour long talks yesterday despite a blistering fever and today I presented at the SpringOne Tour and then, tonight, I had the honor of presenting at a joint meeting of the JJUG and JSUG here in Tokyo on Tuesday evening (starting about 7h ago).&lt;/p&gt;
-&lt;p&gt;If you&amp;rsquo;re about, don&amp;rsquo;t hesitate to say hi! I&amp;rsquo;d love to chat about anything and everything Pivotal and Spring with ya! Anyway, we&amp;rsquo;ve got a &lt;em&gt;ton&lt;/em&gt; to get to, so let&amp;rsquo;s get to it! &lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2018/11/05/spring-credhub-2-0-0-m1-released"&gt;Spring CredHub 2.0.0.M1 released&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2018/11/05/spring-cloud-task-2-1-0-m1-is-now-available"&gt;Spring Cloud Task 2.1.0.M1 is now available&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;In which the &lt;a href="https://spring.io/blog/2018/11/01/project-update-spring-cloud-data-flow-for-apache-mesos-and-apache-yarn"&gt;Spring Cloud Data Flow for Apache Mesos and Apache YARN&lt;/a&gt; deployers and Spring Cloud Data Flow implementations are deprecated.&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2018/11/01/spring-tools-4-0-1-released"&gt;Spring Tools 4.0.1 released&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2018/10/30/spring-cloud-for-alibaba-0-2-0-released"&gt;Announcing: Spring Cloud Alibaba&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2018/10/31/reactor-bismuth-sr13-and-californium-sr2-available-now"&gt;Reactor Bismuth-SR13 and Californium-SR2 available now !&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2018/10/31/spring-security-oauth2-auto-config-2-0-6-2-1-0-released"&gt;Spring Security OAuth2 Auto-config 2.0.6 &amp;amp; 2.1.0 Released&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2018/10/31/spring-session-bean-ga-released"&gt;Spring Session Bean GA Released&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2018/10/30/spring-cloud-stream-fishtown-rc1-2-1-0-rc1-release-announcement"&gt;Spring Cloud Stream Fishtown.RC1 /2.1.0.RC1 Release Announcement&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;I dig this NewStack interview with &lt;a href="https://twitter.com/cloudfoundry/status/1059808876978233344"&gt;Cloud Foundry CTO Chip Childers&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://m.youtube.com/watch?feature=youtu.be&amp;v=ccxBXDAPdmo"&gt;Check out this look at Spring Data JDBC&lt;/a&gt; from Maciej Walkowiak&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://vaadin.com/blog/microservices-high-availability"&gt;Check out this oldie-but-a-goodie that looks at using Spring Session to replicate session state for Vaadin applications&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Want to see a more production-grade example of &lt;a href="https://twitter.com/bsideup/status/1057365188431757314?s=12"&gt;Spring Fu&amp;rsquo;s &amp;ldquo;Jafu&amp;rdquo; configuration? Check this out!&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Not strictly speaking related to Spring, but if you dig Kotlin as I do, check out this post on concurrency with &lt;a href="https://kotlinexpertise.com/kotlin-coroutines-concurrency/"&gt;Kotlin coroutines&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Nice post on Dzone: &lt;a href="https://dzone.com/articles/spring-boot-2-hibernate-5-jpa-mysql-crud-rest-api"&gt;create a CRUD REST API Using Spring Boot 2, Hibernate 5, JPA, and MySQL&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://twitter.com/cloudfoundry/status/1059574077688553474"&gt;Want to present at the Cloud Foundry North America event?&lt;/a&gt; The CFP is now open!&lt;/li&gt;
-  &lt;li&gt;Another interesting post from the AMIS blog: &lt;a href="https://technology.amis.nl/2018/11/01/running-reactive-spring-boot-on-graalvm-in-docker/"&gt;running Reactive Spring Boot on GraalVM in Docker&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://twitter.com/zackb_at_vizuri/status/1058391407575080960?s=12"&gt;This is an interesting healthcare use case &lt;/a&gt; for Business Rules in a Microservices Architecture based on the FHIR STU 3 data structure, using Spring Boot and JBoss BRMS, among other things.&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://github.com/micrometer-metrics/micrometer/releases/tag/v1.1.0"&gt;Micrometer 1.1.0 is now available! It includes work from 35 contributors and introduces a bunch of new features and monitoring systems.&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Spring Boot engineer/legend &lt;a href="https://twitter.com/madhurabhave23"&gt;Madhura Bhave (@madhurabhave23)&lt;/a&gt; said that the Spring Boot team has added new &lt;a href="https://twitter.com/springcentral/status/1058453728976494592"&gt;issues that are ideal for first-timers.&lt;/a&gt;. She says: &amp;ldquo;If you&amp;rsquo;d like to work on an issue, please comment on the issue to claim it. We&amp;rsquo;re especially interested in contributions from people from groups underrepresented in free and open source software!&amp;rdquo;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://twitter.com/zipkinproject/status/1057076409397432320"&gt;Nice! Netflix uses Spring Cloud Sleuth and Zipkin&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://twitter.com/java_hipster/status/1058376188014575616"&gt;JHipster v5.6.0 is released!&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;It&amp;rsquo;s cool that Confluent itself has some nice documentation on &lt;a href="https://www.confluent.io/blog/apache-kafka-spring-boot-application"&gt;how to use Spring Boot with Apache Kafka &lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Check out this &lt;a href="https://www.gremlin.com/chaos-monkey/chaos-monkey-alternatives/spring-boot/"&gt;Chaos Monkey Alternatives for Spring Boot&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Vlad Mihalcea has just announced that &lt;a href="https://github.com/vladmihalcea/flexy-pool"&gt;FlexyPool 2.1.1 has been release, and it now supports Micrometer.io for collecting Metrics.&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;If you celebrate Hallowee, then you might appreciate this epic tweet by Mike Shoemaker: &lt;a href="https://twitter.com/Mike_Shoemaker/status/1057796174541963264"&gt;&amp;ldquo;One of my rockstar software engineers came to work dressed up as his favorite tech. Can you guess what it is, Spring Boot?&amp;rdquo;&lt;/a&gt; :D&lt;/li&gt;
-  &lt;li&gt;Atomist CEO Rod Johnson just announced a new Atomist auto-fix &lt;a href="https://blog.atomist.com/spring-format-autofix/"&gt;to apply the Spring Java Format Maven plugin to any Java project&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Also, a bit tangential, but I want to extend a warm welcome to my friends at Heptio and congratulate them on their recent VMWare acquisition!&lt;/li&gt;
-&lt;/ul&gt;</content>
-  </entry>
-  <entry>
-    <title>Spring CredHub 2.0.0.M1 released</title>
-    <link rel="alternate" href="https://spring.io/blog/2018/11/05/spring-credhub-2-0-0-m1-released" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Scott Frederick</name>
-    </author>
-    <id>tag:spring.io,2018-11-05:3466</id>
-    <updated>2018-11-05T20:26:51Z</updated>
-    <content type="html">&lt;div class="paragraph"&gt;
-&lt;p&gt;I&amp;#8217;m pleased to announce the first milestone release of Spring CredHub 2.0.0, available now in the &lt;a href="https://repo.spring.io/libs-milestone-local/org/springframework/credhub/"&gt;Spring milestone repository&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="sect1"&gt;
-&lt;h2 id="credhub"&gt;&lt;a class="anchor" href="#credhub"&gt;&lt;/a&gt;CredHub&lt;/h2&gt;
-&lt;div class="sectionbody"&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;&lt;a href="https://docs.cloudfoundry.org/credhub/"&gt;CredHub&lt;/a&gt; provides centralized credential management to the Cloud Foundry platform. CredHub implements an HTTP API to securely store, generate, retrieve, and delete credentials of various types.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;Spring CredHub provides a Java binding for the CredHub API, making it easy to integrate Spring applications with CredHub.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="sect1"&gt;
-&lt;h2 id="what-s-new"&gt;&lt;a class="anchor" href="#what-s-new"&gt;&lt;/a&gt;What&amp;#8217;s New&lt;/h2&gt;
-&lt;div class="sectionbody"&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;The 2.0.0 release brings support for CredHub server versions 1.x and 2.x, and the CredHub v1 and v2 APIs. This release also provides compatibility with Spring Framework 5 and Spring Boot 2. The GA release of Spring CredHub 2.0.0 will add a reactive alternative to the existing interfaces.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="sect1"&gt;
-&lt;h2 id="getting-started"&gt;&lt;a class="anchor" href="#getting-started"&gt;&lt;/a&gt;Getting Started&lt;/h2&gt;
-&lt;div class="sectionbody"&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;The Spring CredHub documentation contains a &lt;a href="https://docs.spring.io/spring-credhub/docs/2.0.0.M1/reference/html5/#getting-started"&gt;Getting started&lt;/a&gt; section to help get you started using the library. Feedback can be provided via &lt;a href="https://github.com/spring-projects/spring-credhub/issues"&gt;GitHub issues&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="sect1"&gt;
-&lt;h2 id="acknowledgements"&gt;&lt;a class="anchor" href="#acknowledgements"&gt;&lt;/a&gt;Acknowledgements&lt;/h2&gt;
-&lt;div class="sectionbody"&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;Spring CredHub borrows design concepts (and a bit of code) from &lt;a href="https://spring.io/projects/spring-vault/"&gt;Spring Vault&lt;/a&gt;. Many thanks to &lt;a href="https://twitter.com/mp911de"&gt;Mark Paluch&lt;/a&gt; for the work he&amp;#8217;s done with Spring Vault.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;&lt;a href="https://spring.io/projects/spring-credhub/"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-credhub"&gt;GitHub&lt;/a&gt; | &lt;a href="http://docs.spring.io/spring-credhub/docs/2.0.0.M1/reference/html5/"&gt;Documentation&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;</content>
-  </entry>
-  <entry>
-    <title>Spring Cloud Task 2.1.0.M1 is now available</title>
-    <link rel="alternate" href="https://spring.io/blog/2018/11/05/spring-cloud-task-2-1-0-m1-is-now-available" />
-    <category term="releases" label="Releases" />
-    <author>
-      <name>Glenn Renfro</name>
-    </author>
-    <id>tag:spring.io,2018-11-05:3465</id>
-    <updated>2018-11-05T15:43:34Z</updated>
-    <content type="html">&lt;p&gt;We are pleased to announce that Spring Cloud Task 2.1.0M1 is now available on Github and the Pivotal download repository. Many thanks to all of those who contributed to this release.&lt;/p&gt;&lt;h2&gt;&lt;a href="#what-rsquo-s-new" class="anchor" name="what-rsquo-s-new"&gt;&lt;/a&gt;What&amp;rsquo;s New?&lt;/h2&gt;
-&lt;p&gt;Spring Cloud Task 2.1.0.M1 is intended to be the version of the framework aligned with Spring Boot 2.1.0. Updates from 2.0.x include:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Update all dependencies.&lt;/li&gt;
-  &lt;li&gt;Spring Cloud Task is now enabled through auto-configuration.&lt;/li&gt;
-  &lt;li&gt;The &lt;code&gt;exitCode&lt;/code&gt; of a &lt;code&gt;TaskExecution&lt;/code&gt; is &lt;code&gt;null&lt;/code&gt; when a task is executing.&lt;/li&gt;
-  &lt;li&gt;Spring Cloud Task compiles and runs on Java 8, 9, 10, 11.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Let&amp;rsquo;s walk through these updates in more detail.&lt;/p&gt;&lt;h2&gt;&lt;a href="#update-to-all-dependencies" class="anchor" name="update-to-all-dependencies"&gt;&lt;/a&gt;Update to All Dependencies&lt;/h2&gt;
-&lt;p&gt;As stated earlier, this release brings Spring Cloud Task into alignment with Spring Boot 2.1. This includes updating all dependencies. &lt;/p&gt;&lt;h2&gt;&lt;a href="#spring-cloud-task-is-now-enabled-through-auto-configuration" class="anchor" name="spring-cloud-task-is-now-enabled-through-auto-configuration"&gt;&lt;/a&gt;Spring Cloud Task Is Now Enabled through Auto-configuration&lt;/h2&gt;
-&lt;p&gt;Goodbye to &lt;code&gt;@EnableTask&lt;/code&gt; and hello to &lt;strong&gt;auto-configuration&lt;/strong&gt;! Spring Cloud Task is now enabled through auto-configuration. To use it, add the &lt;code&gt;spring-cloud-starter-task&lt;/code&gt; dependency to your Maven pom or Gradle build file. &lt;/p&gt;&lt;h2&gt;&lt;a href="#task-execution-rsquo-s-code-exitcode-code-is-null-when-a-task-executes" class="anchor" name="task-execution-rsquo-s-code-exitcode-code-is-null-when-a-task-executes"&gt;&lt;/a&gt;Task Execution&amp;rsquo;s &lt;code&gt;exitCode&lt;/code&gt; Is Null When a Task Executes&lt;/h2&gt;
-&lt;p&gt;In previous releases of Spring Cloud Task, the &lt;code&gt;TaskExecution&lt;/code&gt; returned from Spring Cloud Task methods always showed that a running task&amp;rsquo;s &lt;code&gt;exitCode&lt;/code&gt; was &lt;code&gt;0&lt;/code&gt;. Now the TaskExecutions returned from Spring Cloud Task have an &lt;code&gt;exitCode&lt;/code&gt; of &lt;code&gt;null&lt;/code&gt; if the task is still executing.&lt;/p&gt;&lt;h2&gt;&lt;a href="#what-do-you-think" class="anchor" name="what-do-you-think"&gt;&lt;/a&gt;What Do You Think?&lt;/h2&gt;
-&lt;p&gt;We look forward to your feedback on these new features in &lt;a href="https://github.com/spring-cloud/spring-cloud-task/issues"&gt;Github&lt;/a&gt;, &lt;a href="http://stackoverflow.com/tags/spring-cloud-task"&gt;StackOverflow&lt;/a&gt;, &lt;a href="https://gitter.im/spring-cloud/spring-cloud-task"&gt;Gitter&lt;/a&gt;, or directly via Twitter to &lt;a href="https://twitter.com/michaelminella"&gt;@michaelminella&lt;/a&gt; or &lt;a href="https://twitter.com/cppwfs"&gt;@cppwfs&lt;/a&gt;!&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://cloud.spring.io/spring-cloud-task/"&gt;Spring Cloud Task Home&lt;/a&gt; | &lt;a href="https://github.com/spring-cloud/spring-cloud-task"&gt;Source on GitHub&lt;/a&gt; | &lt;a href="http://docs.spring.io/spring-cloud-task/docs/2.1.0.M1/reference/htmlsingle/"&gt;Reference Documentation&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Project Update: Spring Cloud Data Flow for Apache Mesos and Apache YARN</title>
-    <link rel="alternate" href="https://spring.io/blog/2018/11/01/project-update-spring-cloud-data-flow-for-apache-mesos-and-apache-yarn" />
-    <category term="news" label="News and Events" />
-    <author>
-      <name>Mark Pollack</name>
-    </author>
-    <id>tag:spring.io,2018-11-01:3464</id>
-    <updated>2018-11-01T15:53:00Z</updated>
-    <content type="html">&lt;div class="paragraph"&gt;
-&lt;p&gt;Dear Spring community,&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;The Spring Cloud Data Flow team have been happy stewards of the Spring Cloud Deployer and Spring Cloud Data Flow implementations of &lt;a href="https://github.com/spring-cloud?utf8=%E2%9C%93&amp;amp;q=mesos&amp;amp;type=&amp;amp;language="&gt;Apache Mesos&lt;/a&gt; and &lt;a href="https://github.com/spring-cloud?utf8=%E2%9C%93&amp;amp;q=yarn&amp;amp;type=&amp;amp;language="&gt;Apache YARN&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;We now feel that &lt;a href="https://trustedchoice.com"&gt;TrustedChoice.com&lt;/a&gt; will be a better home for Apache Mesos implementation of Spring Cloud Deployer and Spring Cloud Data Flow, and we are donating the projects to them to carry it forward.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;The development will now be managed directly by the team (&lt;a href="https://github.com/aweigold"&gt;Adam J. Weigold&lt;/a&gt;, &lt;a href="https://github.com/pegelston"&gt;Phil Egelston&lt;/a&gt;, &lt;a href="https://github.com/Jmathieu3289"&gt;Justin Mathieu&lt;/a&gt;, and &lt;a href="https://github.com/bitskeptic-tc"&gt;Cole Anderson&lt;/a&gt;) at TrustedChoice.com, as the Spring Cloud Data Flow team will no longer maintain it.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;For more details, please refer to the projects in TrustedChoice.com’s GitHub repositories:&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="ulist"&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href="https://github.com/trustedchoice/spring-cloud-deployer-mesos"&gt;Spring Cloud Deployer for Mesos&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href="https://github.com/trustedchoice/spring-cloud-dataflow-server-mesos"&gt;Spring Cloud Data Flow for Mesos&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;For Apache YARN, however, since we are focusing our efforts towards Local, Kubernetes and Cloud Foundry implementations, the Spring Cloud Data Flow team has stopped maintaining it. The Apache Yarn implementation of Spring Cloud Deployer and Spring Cloud Data Flow projects have officially reached the end-of-life status today (November 1st, 2018).&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;If there’s interest in the community, we would like to open it up and donate the related projects similar to Apache Mesos implementation. If you are interested in forking the project to continue to develop and maintaining it, we would be happy to cross-link and promote your forked project. Please ping us at &lt;a href="https://gitter.im/spring-cloud/spring-cloud-dataflow"&gt;Gitter&lt;/a&gt; to discuss it.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;All the best,&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;Spring Cloud Data Flow Team&lt;/p&gt;
-&lt;/div&gt;</content>
-  </entry>
-  <entry>
-    <title>Spring Tools 4.0.1 released</title>
-    <link rel="alternate" href="https://spring.io/blog/2018/11/01/spring-tools-4-0-1-released" />
-    <category term="releases" label="Releases" />
-    <author>
-      <name>Martin Lippert</name>
-    </author>
-    <id>tag:spring.io,2018-11-01:3463</id>
-    <updated>2018-11-01T14:21:30Z</updated>
-    <content type="html">&lt;p&gt;Dear Spring Community,&lt;/p&gt;
-&lt;p&gt;I am happy to announce the 4.0.1 release of the Spring Tools 4 for Eclipse, Visual Studio Code, and Atom.&lt;/p&gt;
-&lt;p&gt;Highlights from this release include:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;(Eclipse) added support for Buildship 3.0&lt;/li&gt;
-  &lt;li&gt;(Eclipse) added Tomcat server adapters back to default distribution&lt;/li&gt;
-  &lt;li&gt;(Concourse) updated S3 params to latest changes&lt;/li&gt;
-  &lt;li&gt;(Spring Boot suppport in general) various bug fixes&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;To download the distribution for Eclipse and find links to the marketplace entries for Visual Studio Code and Atom, please go visit:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Spring Tools 4: &lt;a href="https://spring.io/tools/"&gt;https://spring.io/tools/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Detailed changes can be found here: &lt;a href="https://github.com/spring-projects/sts4/wiki/Changelog#2018-10-31-401-release"&gt;https://github.com/spring-projects/sts4/wiki/Changelog#2018-10-31-401-release&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Enjoy!&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Reactor Bismuth-SR13 and Californium-SR2 available now !</title>
-    <link rel="alternate" href="https://spring.io/blog/2018/10/31/reactor-bismuth-sr13-and-californium-sr2-available-now" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Stephane Maldini</name>
-    </author>
-    <id>tag:spring.io,2018-10-31:3462</id>
-    <updated>2018-10-31T17:19:00Z</updated>
-    <content type="html">&lt;h1&gt;&lt;a href="#californium-update" class="anchor" name="californium-update"&gt;&lt;/a&gt;Californium Update&lt;/h1&gt;
-&lt;p&gt;On behalf of the Reactor team, I am pleased to announce that &lt;code&gt;Californium-SR2&lt;/code&gt; release train &lt;a href="http://projectreactor.io/docs"&gt;is available now&lt;/a&gt;. &lt;/p&gt;
-&lt;p&gt;This maintenance release of the &lt;em&gt;Californium&lt;/em&gt; line includes the following dependencies updates:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Reactor-Core &lt;em&gt;3.2.2&lt;/em&gt; | &lt;a href="https://github.com/reactor/reactor-core/releases/tag/v3.2.2.RELEASE"&gt;Release Notes&lt;/a&gt; | &lt;a href="https://github.com/reactor/reactor-core"&gt;Repository&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Reactor-Netty &lt;em&gt;0.8.2&lt;/em&gt; | &lt;a href="https://github.com/reactor/reactor-netty/releases/tag/v0.8.2.RELEASE"&gt;Release Notes&lt;/a&gt; | &lt;a href="https://github.com/reactor/reactor-netty"&gt;Repository&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h1&gt;&lt;a href="#bismuth-update" class="anchor" name="bismuth-update"&gt;&lt;/a&gt;Bismuth Update&lt;/h1&gt;
-&lt;p&gt;We also have shipped &lt;code&gt;Bismuth-SR13&lt;/code&gt;. This maintenance release of the &lt;em&gt;Bismuth&lt;/em&gt; line includes the following dependencies updates:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Reactor-Core &lt;em&gt;3.1.11&lt;/em&gt; | &lt;a href="https://github.com/reactor/reactor-core/releases/tag/v3.1.11.RELEASE"&gt;Release Notes&lt;/a&gt; | &lt;a href="https://github.com/reactor/reactor-core/tree/3.1.x"&gt;Repository&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Reactor-Netty &lt;em&gt;0.7.11&lt;/em&gt; | &lt;a href="https://github.com/reactor/reactor-netty/releases/tag/v0.7.11.RELEASE"&gt;Release Notes&lt;/a&gt; | &lt;a href="https://github.com/reactor/reactor-netty/tree/0.7.x"&gt;Repository&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Thanks a lot to our contributors, and as usual, update while it&amp;rsquo;s hot :)&lt;/p&gt;&lt;h1&gt;&lt;a href="#media" class="anchor" name="media"&gt;&lt;/a&gt;Media&lt;/h1&gt;
-&lt;p&gt;The team was quite active in various conferences this last month, you can catch up with our latest presentations on Youtube from &lt;a href="https://springoneplatform.io/"&gt;SpringOne Platform&lt;/a&gt; and &lt;a href="https://www.oracle.com/code-one/index.html"&gt;Oracle Code One&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;What&amp;rsquo;s new in Californium | &lt;a href="https://www.youtube.com/watch?v=szEHXgWeF3Q"&gt;Youtube&lt;/a&gt; | &lt;a href="https://www.slideshare.net/StphaneMaldini/reactor-californium"&gt;Slides&lt;/a&gt; | &lt;a href="https://twitter.com/smaldini"&gt;Stephane Maldini&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Flight of the Flux | &lt;a href="https://www.youtube.com/watch?v=sNgTTcG-fEU"&gt;Youtube&lt;/a&gt; | &lt;a href="https://speakerdeck.com/simonbasle/flight-of-the-flux"&gt;Slides&lt;/a&gt; | &lt;a href="https://twitter.com/simonbasle"&gt;Simon Basle&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Reactor Netty, The default Reactive Runtime for Spring Boot 2 | &lt;a href="https://www.youtube.com/watch?v=flzWgXmynaA"&gt;Youtube&lt;/a&gt; | &lt;a href="https://twitter.com/violeta_g_g"&gt;Violeta Georgeva&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;The Future of Reactive Architectures | &lt;a href="https://www.youtube.com/watch?v=D2Z5d9dEBxQ"&gt;Youtube&lt;/a&gt; | &lt;a href="https://www.slideshare.net/StphaneMaldini/the-future-of-reactive-architectures-119037248"&gt;Slides&lt;/a&gt; | &lt;a href="https://twitter.com/stevegury"&gt;Steve Gury&lt;/a&gt; | &lt;a href="https://twitter.com/smaldini"&gt;Stephane Maldini&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Distributed Reactive-Streams with RSocket, Reactor and Spring | &lt;a href="https://www.youtube.com/watch?v=WVnAbv65uCU"&gt;Youtube&lt;/a&gt; | &lt;a href="https://www.slideshare.net/StphaneMaldini/multiservice-reactive-streams-using-spring-reactor-rsocket"&gt;Slides&lt;/a&gt; | &lt;a href="https://twitter.com/smaldini"&gt;Stephane Maldini&lt;/a&gt; | &lt;a href="https://twitter.com/nebhale"&gt;Ben Hale&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h1&gt;&lt;a href="#one-last-thing" class="anchor" name="one-last-thing"&gt;&lt;/a&gt;One Last Thing&lt;/h1&gt;
-&lt;p&gt;The list above is far from exhaustive, you can browse &lt;a href="https://www.youtube.com/user/SpringSourceDev"&gt;the full list of videos from SpringOne to find more Reactive content&lt;/a&gt;. Make sure to check out our latest incubating reactive project: &lt;a href="http://r2dbc.io"&gt;R2DBC&lt;/a&gt;, an initiative to bring Reactive Streams to relational database access. Also, take a deeper look at &lt;a href="http://rsocket.io"&gt;RSocket&lt;/a&gt; for more details about Reactive Streams applied to network communications.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://projectreactor.io"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/reactor"&gt;GitHub&lt;/a&gt; | &lt;a href="https://projectreactor.io/docs"&gt;Documentation&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Spring Security OAuth2 Auto-config 2.0.6 &amp; 2.1.0 Released</title>
-    <link rel="alternate" href="https://spring.io/blog/2018/10/31/spring-security-oauth2-auto-config-2-0-6-2-1-0-released" />
-    <category term="releases" label="Releases" />
-    <author>
-      <name>Josh Cummings</name>
-    </author>
-    <id>tag:spring.io,2018-10-23:3445</id>
-    <updated>2018-10-31T15:37:47Z</updated>
-    <content type="html">&lt;div class="paragraph"&gt;
-&lt;p&gt;I&amp;#8217;m pleased to announce on behalf of the community &lt;a href="https://github.com/spring-projects/spring-security-oauth2-boot"&gt;Spring Security OAuth2 Boot Auto-config&lt;/a&gt; 2.0.6 and 2.1.0.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;Both releases primarily deliver bug fixes and dependency version updates along with some minor improvements. Of particular note is that these align with &lt;a href="https://github.com/spring-projects/spring-boot/releases/tag/v2.1.0.RELEASE"&gt;recent&lt;/a&gt; &lt;a href="https://github.com/spring-projects/spring-boot/releases/tag/v2.0.6.RELEASE"&gt;releases&lt;/a&gt; of Spring Boot.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;Note that for 2.1.0, gaps in configuration of keys between Resource Server and Authorization Server were brought into parity. Now, it&amp;#8217;s possible on the Authorization Server side &lt;a href="https://github.com/spring-projects/spring-security-oauth2-boot/issues/56"&gt;to configure a single key&lt;/a&gt;:&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="listingblock"&gt;
-&lt;div class="content"&gt;
-&lt;pre class="prettyprint highlight"&gt;&lt;code class="language-yaml" data-lang="yaml"&gt;security:
-  oauth2:
-    authorization:
-      jwt:
-        key-value: ${PRIVATE_KEY}&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;similar to Resource Server configuration.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;Also, some &lt;a href="https://github.com/spring-projects/spring-security-oauth2-boot/issues/18"&gt;basic support for configuring a key store&lt;/a&gt; was added to both Resource Server and Authorization Server.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;For a complete list of changes, please refer to the 2.0.6 &lt;a href="https://github.com/spring-projects/spring-security-oauth2-boot/milestone/14"&gt;changelog&lt;/a&gt;, the 2.1.0.RC1 &lt;a href="https://github.com/spring-projects/spring-security-oauth2-boot/milestone/12?closed=1"&gt;changelog&lt;/a&gt; and the 2.1.0 &lt;a href="https://github.com/spring-projects/spring-security-oauth2-boot/milestone/5?closed=1"&gt;changelog&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;&lt;a href="https://projects.spring.io/spring-security/"&gt;Project Site&lt;/a&gt; | &lt;a href="https://docs.spring.io/spring-security-oauth2-boot/docs/current/reference/htmlsingle/"&gt;Reference&lt;/a&gt; | &lt;a href="https://stackoverflow.com/questions/tagged/spring-security"&gt;Help&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;</content>
-  </entry>
-  <entry>
-    <title>Spring Session Bean GA Released</title>
-    <link rel="alternate" href="https://spring.io/blog/2018/10/31/spring-session-bean-ga-released" />
-    <category term="releases" label="Releases" />
-    <author>
-      <name>Rob Winch</name>
-    </author>
-    <id>tag:spring.io,2018-10-31:3461</id>
-    <updated>2018-10-31T13:59:32Z</updated>
-    <content type="html">&lt;div class="paragraph"&gt;
-&lt;p&gt;&lt;em&gt;This post was authored by &lt;a href="https://github.com/vpavic"&gt;Vedran Pavić&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;On behalf of the community, I&amp;#8217;m pleased to announce the general availability of Spring Session BOM Bean. This is the first release based on Spring Session 2.1 and can be easily consumed with freshly released &lt;a href="https://spring.io/blog/2018/10/30/spring-boot-2-1-0"&gt;Spring Boot 2.1&lt;/a&gt;. Please read on for the highlights of the release.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="sect1"&gt;
-&lt;h2 id="same-site-cookie-support-for-code-httpsession-code-integration"&gt;&lt;a class="anchor" href="#same-site-cookie-support-for-code-httpsession-code-integration"&gt;&lt;/a&gt;Same-Site Cookie support for &lt;code&gt;HttpSession&lt;/code&gt; integration&lt;/h2&gt;
-&lt;div class="sectionbody"&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;Same-Site Cookie is another mechanism that &lt;a href="https://scotthelme.co.uk/csrf-is-dead/"&gt;helps developers to protect from Cross-Site Request Forgery&lt;/a&gt;. Our &lt;code&gt;DefaultCookieSerializer&lt;/code&gt; has been enhanced to support adding &lt;code&gt;SameSite&lt;/code&gt; attribute to session cookie produced by Spring Session. The &lt;code&gt;SameSite&lt;/code&gt; attribute is enabled by default with value &lt;code&gt;Lax&lt;/code&gt; and is customizable using &lt;code&gt;DefaultCookieSerializer#setSameSite&lt;/code&gt;.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;Note that the equivalent support for &lt;code&gt;WebSession&lt;/code&gt; is present in the Spring WebFlux itself starting with Spring Framework 5.1.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="sect1"&gt;
-&lt;h2 id="code-httpsessionbindinglistener-code-support"&gt;&lt;a class="anchor" href="#code-httpsessionbindinglistener-code-support"&gt;&lt;/a&gt;&lt;code&gt;HttpSessionBindingListener&lt;/code&gt; support&lt;/h2&gt;
-&lt;div class="sectionbody"&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;Spring Session now supports &lt;a href="https://javaee.github.io/javaee-spec/javadocs/javax/servlet/http/HttpSessionBindingListener.html"&gt;&lt;code&gt;HttpSessionBindingListener&lt;/code&gt;&lt;/a&gt; and will properly invoked callbacks on implementations of this API. This also means that it is now possible to use &lt;code&gt;@PreDestroy&lt;/code&gt; on session scoped beans, since that feature is realized using Spring Framework&amp;#8217;s &lt;code&gt;DestructionCallbackBindingListener&lt;/code&gt; which is a concrete implementation of &lt;code&gt;HttpSessionBindingListener&lt;/code&gt;.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="sect1"&gt;
-&lt;h2 id="custom-serialization-for-redis-code-websession-code-integration"&gt;&lt;a class="anchor" href="#custom-serialization-for-redis-code-websession-code-integration"&gt;&lt;/a&gt;Custom serialization for Redis &lt;code&gt;WebSession&lt;/code&gt; integration&lt;/h2&gt;
-&lt;div class="sectionbody"&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;Our Redis &lt;code&gt;WebSession&lt;/code&gt; integration can now be easily configured to use a custom serialization mechanism. In a similar fashion like with Redis &lt;code&gt;HttpSession&lt;/code&gt; integration, this can be achived by providing a &lt;code&gt;@Bean&lt;/code&gt; of type &lt;code&gt;RedisSerializer&amp;lt;Object&amp;gt;&lt;/code&gt; that is named &lt;code&gt;springSessionDefaultRedisSerializer&lt;/code&gt;:&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="listingblock"&gt;
-&lt;div class="content"&gt;
-&lt;pre class="prettyprint highlight"&gt;&lt;code class="language-java" data-lang="java"&gt;@EnableRedisWebSession
-static class SessionConfig {
-
-    @Bean
-    public RedisSerializer&amp;lt;Object&amp;gt; springSessionDefaultRedisSerializer() {
-        // configure and return a serializer of your choice
-    }
-
-}&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="sect1"&gt;
-&lt;h2 id="performance-improvements-for-jdbc-code-httpsession-code-integration"&gt;&lt;a class="anchor" href="#performance-improvements-for-jdbc-code-httpsession-code-integration"&gt;&lt;/a&gt;Performance improvements for JDBC &lt;code&gt;HttpSession&lt;/code&gt; integration&lt;/h2&gt;
-&lt;div class="sectionbody"&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;We have added a couple of performance improvements for our JDBC &lt;code&gt;HttpSession&lt;/code&gt; integration:&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="ulist"&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;lazy deserialization of session attributes - session attributes will now be deserialized on first access, rather than on retrieval of &lt;code&gt;HttpSession&lt;/code&gt; from database, which can for many HTTP request avoid the cost of deserialization completely&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;option for disabling transactions - for users that want to avoid the cost of transactions, &lt;code&gt;JdbcOperationsSessionRepository&lt;/code&gt; now offers a constructor that takes only &lt;code&gt;JdbcOperations&lt;/code&gt; and uses a no-op &lt;code&gt;TransactionOperations&lt;/code&gt; implementation internally&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="sect1"&gt;
-&lt;h2 id="support-for-java-11"&gt;&lt;a class="anchor" href="#support-for-java-11"&gt;&lt;/a&gt;Support for Java 11&lt;/h2&gt;
-&lt;div class="sectionbody"&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;Spring Session now supports recently released Java 11, while the required version of course stays at Java 8. Our CI pipeline has been enhanced so that the project is now continuosly verified against Java 11.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="sect1"&gt;
-&lt;h2 id="dependency-upgrades"&gt;&lt;a class="anchor" href="#dependency-upgrades"&gt;&lt;/a&gt;Dependency Upgrades&lt;/h2&gt;
-&lt;div class="sectionbody"&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;Spring Session 2.1 is based on the following latest and greatest releases of key dependencies:&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="ulist"&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Spring Framework 5.1&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Spring Data Lovelace&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Spring Security 5.1&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Project Reactor Californium&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="sect1"&gt;
-&lt;h2 id="other"&gt;&lt;a class="anchor" href="#other"&gt;&lt;/a&gt;Other&lt;/h2&gt;
-&lt;div class="sectionbody"&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;Complete details of Spring Session 2.1 release can be found in the following changelogs:&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="ulist"&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href="https://github.com/spring-projects/spring-session/milestone/46?closed=1"&gt;&lt;code&gt;2.1.1.RELEASE&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href="https://github.com/spring-projects/spring-session/milestone/28?closed=1"&gt;&lt;code&gt;2.1.0.RELEASE&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href="https://github.com/spring-projects/spring-session/milestone/42?closed=1"&gt;&lt;code&gt;2.1.0.RC1&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href="https://github.com/spring-projects/spring-session/milestone/41?closed=1"&gt;&lt;code&gt;2.1.0.M3&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href="https://github.com/spring-projects/spring-session/milestone/39?closed=1"&gt;&lt;code&gt;2.1.0.M2&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href="https://github.com/spring-projects/spring-session/milestone/29?closed=1"&gt;&lt;code&gt;2.1.0.M1&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;&lt;a href="https://projects.spring.io/spring-session/"&gt;Project Page&lt;/a&gt; | &lt;a href="https://docs.spring.io/spring-session/docs/2.1.0.RELEASE/reference/html5/"&gt;Documentation&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-session/issues"&gt;Issues&lt;/a&gt; | &lt;a href="https://gitter.im/spring-projects/spring-session"&gt;Gitter&lt;/a&gt; | &lt;a href="https://stackoverflow.com/questions/tagged/spring-session"&gt;Stack Overflow&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;</content>
   </entry>
 </feed>

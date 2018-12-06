@@ -15,12 +15,19 @@ public class User {
 	@Indexed
 	private String phoneNum; 
 	
-	private double deposit;
+	private Double deposit;
 	
+
+	public void setDeposit(Double deposit) {
+		this.deposit = deposit;
+	}
 
 	private Date regDate;
 	
 	private String nickName;
+	
+	private Integer status;
+	
 	
 	private String name;
 	
@@ -42,13 +49,7 @@ public class User {
 		this.phoneNum = phoneNum;
 	}
 	
-	public double getDeposit() {
-		return deposit;
-	}
-
-	public void setDeposit(double deposit) {
-		this.deposit = deposit;
-	}
+	
 
 	
 	public Date getRegDate() {
@@ -83,4 +84,16 @@ public class User {
 		this.idNum = idNum;
 	}
 	
+	public Integer getStatus() {
+		return status;
+	}
+
+	public void setStatus(Integer status) {
+		this.status = status;
+	}
+
+	public Object getDeposit() {
+		return deposit;
+	}
+
 }

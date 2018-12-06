@@ -7,6 +7,9 @@ import java.util.concurrent.TimeUnit;
 import org.json.JSONException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoTemplate;
+import org.springframework.data.mongodb.core.query.Criteria;
+import org.springframework.data.mongodb.core.query.Query;
+import org.springframework.data.mongodb.core.query.Update;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.stereotype.Service;
 
@@ -65,9 +68,24 @@ public class UserServiceImpl implements UserService {
 	}
 
 	@Override
-	public void updata(User user) {
+	public void update(User user) {
+		Update update = new Update();
+		if(user.getDeposit() != null) {
+			update.set("deposit", user.getDeposit());
+		}
+		if(user.getStatus() != null) {
+			update.set("status", user.getStatus());
+		}
+		if(user.getName() != null) {
+			update.set("name", user.getName());
+		}
+		if(user.getIdNum() != null) {
+			update.set("idNum", user.getIdNum());
+		}
+		
 		//如果数据不存在，就插入，如果存在就更新数据
-		mongoTemplate.insert(user);
+		mongoTemplate.updateFirst(new Query(Criteria.where("phoneNum").is(user.getPhoneNum())), 
+									update, User.class);
 		
 	}
 	

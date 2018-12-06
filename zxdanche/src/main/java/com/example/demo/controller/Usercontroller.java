@@ -49,7 +49,7 @@ public class Usercontroller {
 	public boolean deposit(@RequestBody User user) {
 		boolean flag = true;
 		try {
-			userService.updata(user);
+			userService.update(user);
 		}catch(Exception e) {
 			e.printStackTrace();
 			flag = false;
@@ -57,6 +57,18 @@ public class Usercontroller {
 		return flag;
 	}
 	
+	@RequestMapping("/user/identify")
+	@ResponseBody
+	public boolean identify(@RequestBody User user) {
+		boolean flag = true;
+		try {
+			userService.update(user);
+		}catch(Exception e) {
+			e.printStackTrace();
+			flag = false;
+	}
+		return flag;
+	}
 	 
 	
 }

@@ -1,6 +1,12 @@
 package com.example.demo.controller;
 
+
+
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.geo.GeoResult;
+import org.springframework.data.geo.GeoResults;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -30,5 +36,15 @@ public class BikeController {
 		//调用service，将数据保存到MongoDB中
 		bikeService.save(bike);
 		return "success";
+	}
+	
+	@RequestMapping("/bike/findNear")
+	@ResponseBody
+	public List<GeoResult<Bike>> findNear(double longtiude, double latitude) {
+		//调用service，将数据保存到MongoDB中
+		List<GeoResult<Bike>> bikes = bikeService.findNear(longtiude, latitude);
+//		System.out.println(bikes);
+//		System.out.println(1111);
+		return bikes;
 	}
 }

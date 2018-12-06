@@ -1,6 +1,8 @@
 package com.example.demo.pojo;
 
 import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.index.GeoSpatialIndexType;
+import org.springframework.data.mongodb.core.index.GeoSpatialIndexed;
 import org.springframework.data.mongodb.core.index.Indexed;
 import org.springframework.data.mongodb.core.mapping.Document;
 
@@ -17,10 +19,21 @@ public class Bike {
 	@Indexed
 	private long   bikeNum;
 	
-	private double longitude;
+	@GeoSpatialIndexed(type= GeoSpatialIndexType.GEO_2DSPHERE)
+	private double[] location;
 	
-	private double latitude;
+	//private double longitude;
 	
+	//private double latitude;
+	
+	public double[] getLocation() {
+		return location;
+	}
+
+	public void setLocation(double[] location) {
+		this.location = location;
+	}
+
 	private int    status;
 	
 	
@@ -32,21 +45,21 @@ public class Bike {
 		this.id = id;
 	}
 	
-	public double getLongitude() {
-		return longitude;
-	}
-	
-	public void setLongitude(double longitude) {
-		this.longitude = longitude;
-	}
-	
-	public double getLatitude() {
-		return latitude;
-	}
-	
-	public void setLatitude(double latitude) {
-		this.latitude = latitude;
-	}
+//	public double getLongitude() {
+//		return longitude;
+//	}
+//	
+//	public void setLongitude(double longitude) {
+//		this.longitude = longitude;
+//	}
+//	
+//	public double getLatitude() {
+//		return latitude;
+//	}
+//	
+//	public void setLatitude(double latitude) {
+//		this.latitude = latitude;
+//	}
 	
 	public int getStatus() {
 		return status;
