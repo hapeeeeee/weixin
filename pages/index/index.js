@@ -19,6 +19,8 @@ Page({
           longtiude: longtiude,
           latitude:latitude
         })
+        //查找单车
+        findBikes(longtiude, latitude, that)
       },
     })
   
@@ -127,6 +129,10 @@ Page({
           wx.navigateTo({
             url: '../deposit/deposit',
           })
+        } else if (status == 2) {
+          wx.navigateTo({
+            url: '../identify/identify',
+          })
         }
         
         break
@@ -143,6 +149,7 @@ Page({
         //获取当前位置，此处有个bug，必须定义临时变量，不然电脑卡死
         this.mapCtx.getCenterLocation({
           success:function(res){
+           
             var log = res.longitude;
             var lat = res.latitude;
             
@@ -164,13 +171,15 @@ Page({
             wx.request({
               url: 'http://localhost:8080/bike/add',
               data:{
-                latitude: lat,
-                longitude: log,
+                //latitude: lat,
+                //longitude: log,
+                location:[log, lat],
                 status:0
               },
-              method:"post",
+              method:"POST",
               success:function(res){
-                console.log(res)
+                findBikes(log, lat, that)
+                
               }
             })
           }
@@ -188,17 +197,20 @@ Page({
   //地图视野发生变化，移动后地图视触发的事件
 
   regionchange :function(e){
-    // var that = this
+    var that = this
     // console.log(e)
-    // var etype = e.type;
-    // if (etype == 'end'){
-    //   this.mapCtx.getCenterLocation({
-    //     success: function (res) {
-    //       console.log(res.longitude)
-    //       console.log(res.latitude)
-    //     }
-    //   })
-    // }
+    var etype = e.type;
+    if (etype == 'end'){
+      this.mapCtx.getCenterLocation({
+        success: function (res) {
+          // console.log(res.longitude)
+          // console.log(res.latitude)
+          var log = res.longitude;
+          var lat = res.latitude;
+          findBikes(log, lat, that);
+        }
+      })
+    }
   }
   ,
 
@@ -207,3 +219,58 @@ Page({
     this.mapCtx = wx.createMapContext('myMap')
   }     
 })
+
+
+function findBikes(longtiude, latitude, that){
+  wx.request({
+    url: 'http://localhost:8080/bike/findNear',
+    method:'GET',
+    data:{
+      longtiude:longtiude,
+      latitude:latitude
+    },
+    success:function(res){
+      console.log(res)
+      var param = {};
+      for (var i = 0; i < res.data.length; i++) {
+        // that.data.markers[i].id=i;
+        // mark.id=i;
+        
+        var param = {};
+        // var string = "markers[" + i + "].id";
+        // param[string] = res.data.content.id;
+        // that.setData(param);
+
+
+        var string = "markers[" + i + "].iconPath";
+        param[string] = "/images/bike.jpeg";
+        that.setData(param);
+
+
+        var string = "markers[" + i + "].latitude";
+        param[string] = res.data[i].content.location[1];
+        that.setData(param);
+
+
+
+        var string = "markers[" + i + "].longitude";
+        param[string] = res.data[i].content.location[0];
+        that.setData(param);
+
+
+
+
+        var string = "markers[" + i + "].width";
+        param[string] = 50;
+        that.setData(param);
+
+
+        var string = "markers[" + i + "].height";
+        param[string] = 50;
+        that.setData(param);
+        }
+      var markk = that.data.markers;
+      that.setData({ markers: markk })
+    }
+  })
+}

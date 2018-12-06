@@ -91,7 +91,8 @@ Page({
             method:'POST',
             data:{
               phoneNum : phoneNum,
-              deposit : 299
+              deposit : 299,
+              status: 2
             },
             success:function(){
               //关闭加载对话框 
@@ -99,6 +100,11 @@ Page({
               wx.navigateTo({
                 url: '../identify/identify',
               })
+              //更新用户状态：0表示未注册，1表示注册未交押金，2表示交了押金
+              //跳转页面时将用户的状态更新为2
+              getApp().globalData.status = 2
+              wx.setStorageSync('status', 2)
+              
            }
           })
         }

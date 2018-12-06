@@ -131,7 +131,8 @@ Page({
             
             data:{
               phoneNum : phoneNum,
-              regDate : new Date()
+              regDate : new Date(),
+              status : 1
             },
             //用户信息保存成功，跳转页面
             success:function(res){
